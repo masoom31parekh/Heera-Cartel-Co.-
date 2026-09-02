@@ -60,12 +60,11 @@
   /* ---------- HERO ---------- */
   .hero{
     position:relative; min-height:100svh; display:flex; align-items:flex-end;
-    background:
-      linear-gradient(180deg, rgba(10,10,10,0.35), rgba(10,10,10,0.92)),
-      url('https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?q=80&w=1800&auto=format&fit=crop') center/cover no-repeat;
-    padding-top:120px;
+    padding-top:120px; overflow:hidden;
   }
-  .hero-inner{ padding-bottom:90px; max-width:760px; }
+  .hero-video{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; filter:grayscale(1) contrast(1.05); }
+  .hero-overlay{ position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,10,10,0.35), rgba(10,10,10,0.92)); }
+  .hero-inner{ position:relative; z-index:2; padding-bottom:90px; max-width:760px; }
   .hero-kicker{ font-size:0.72rem; letter-spacing:0.3em; color:var(--grey); text-transform:uppercase; margin-bottom:22px; }
   .hero h1{ font-size:clamp(2.6rem, 6.2vw, 5.2rem); line-height:0.98; letter-spacing:-0.01em; }
   .hero h1 em{ font-style:italic; color:var(--ink-dim); }
@@ -238,6 +237,10 @@
 
   <!-- HERO -->
   <section class="hero" style="border:none; padding-bottom:0;">
+    <video class="hero-video" autoplay muted loop playsinline poster="assets/round.jpg">
+      <source src="assets/hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
     <div class="wrap hero-inner">
       <p class="hero-kicker">Surat · Mumbai · Worldwide</p>
       <h1>Unlock the<br><em>true value</em> of diamonds</h1>
@@ -315,36 +318,32 @@
 
         <div class="shape-grid">
           <div class="shape-card">
-            <div class="shape-frame"><img src="https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d?q=80&w=600&auto=format&fit=crop" alt="Round diamond"><span class="tag">Round</span></div>
+            <div class="shape-frame"><img src="assets/round.jpg" alt="Round brilliant cut diamond"><span class="tag">Round</span></div>
             <small>Maximum light return</small>
           </div>
           <div class="shape-card">
-            <div class="shape-frame"><img src="https://images.unsplash.com/photo-1600643788524-d67d0e6f5c4a?q=80&w=600&auto=format&fit=crop" alt="Princess diamond"><span class="tag">Princess</span></div>
+            <div class="shape-frame"><img src="assets/princess.jpg" alt="Princess cut diamond"><span class="tag">Princess</span></div>
             <small>Crisp architectural lines</small>
           </div>
           <div class="shape-card">
-            <div class="shape-frame"><img src="https://images.unsplash.com/photo-1602752275849-a865a0ec9260?q=80&w=600&auto=format&fit=crop" alt="Emerald diamond"><span class="tag">Emerald</span></div>
+            <div class="shape-frame"><img src="assets/emerald.jpg" alt="Emerald cut diamond"><span class="tag">Emerald</span></div>
             <small>Quiet hall of mirrors</small>
           </div>
           <div class="shape-card">
-            <div class="shape-frame"><img src="https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?q=80&w=600&auto=format&fit=crop" alt="Cushion diamond"><span class="tag">Cushion</span></div>
-            <small>Soft corners and depth</small>
-          </div>
-          <div class="shape-card">
-            <div class="shape-frame"><img src="https://images.unsplash.com/photo-1548624313-0396c75f2f0c?q=80&w=600&auto=format&fit=crop" alt="Oval diamond"><span class="tag">Oval</span></div>
+            <div class="shape-frame"><img src="assets/oval.jpg" alt="Oval cut diamond"><span class="tag">Oval</span></div>
             <small>Elegant elongated glow</small>
           </div>
           <div class="shape-card">
-            <div class="shape-frame"><img src="https://images.unsplash.com/photo-1666190843556-8b12ae3e2a1f?q=80&w=600&auto=format&fit=crop" alt="Pear diamond"><span class="tag">Pear</span></div>
+            <div class="shape-frame"><img src="assets/pear.jpg" alt="Pear shape diamond"><span class="tag">Pear</span></div>
             <small>A graceful single point</small>
           </div>
           <div class="shape-card">
-            <div class="shape-frame"><img src="https://images.unsplash.com/photo-1587467512961-120760940315?q=80&w=600&auto=format&fit=crop" alt="Marquise diamond"><span class="tag">Marquise</span></div>
-            <small>A long luminous silhouette</small>
+            <div class="shape-frame"><img src="assets/radiant.jpg" alt="Radiant cut diamond"><span class="tag">Radiant</span></div>
+            <small>Faceted brilliance, bold corners</small>
           </div>
           <div class="shape-card">
-            <div class="shape-frame"><img src="https://images.unsplash.com/photo-1518544866330-4d5544db1f5a?q=80&w=600&auto=format&fit=crop" alt="Loose diamonds"><span class="tag">Mixed Parcel</span></div>
-            <small>Curated by our team</small>
+            <div class="shape-frame"><img src="assets/heart.jpg" alt="Heart cut diamond"><span class="tag">Heart</span></div>
+            <small>A romantic, symbolic cut</small>
           </div>
         </div>
       </div>
