@@ -62,16 +62,7 @@
     position:relative; min-height:100svh; display:flex; align-items:flex-end;
     padding-top:120px; overflow:hidden;
   }
-  .hero-video-wrap{ position:absolute; inset:0; overflow:hidden; }
-.hero-video-bg{
-  position:absolute; inset:0; width:100%; height:100%;
-  object-fit:cover; filter:blur(40px) brightness(0.55); transform:scale(1.15);
-}
-.hero-video-fg{
-  position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
-  max-width:100%; max-height:100%; width:auto; height:auto;
-  object-fit:contain;
-}; filter:contrast(1.05); }
+ .hero-video{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }; filter:contrast(1.05); }
   .hero-overlay{ position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,10,10,0.35), rgba(10,10,10,0.92)); }
   .hero-inner{ position:relative; z-index:2; padding-bottom:90px; max-width:760px; }
   .hero-kicker{ font-size:0.72rem; letter-spacing:0.3em; color:var(--grey); text-transform:uppercase; margin-bottom:22px; }
@@ -246,14 +237,10 @@
 
   <!-- HERO -->
   <section class="hero" style="border:none; padding-bottom:0;">
-   <div class="hero-video-wrap">
-  <video class="hero-video-bg" autoplay muted loop playsinline>
-    <source src="assets/hero-video-3.mp4" type="video/mp4">
-  </video>
-  <video class="hero-video-fg" autoplay muted loop playsinline poster="assets/round.jpg">
-    <source src="assets/hero-video-3.mp4" type="video/mp4">
-  </video>
-</div>
+   <video class="hero-video" autoplay muted loop playsinline poster="assets/round.jpg">
+  <source src="assets/hero-video-desktop.mp4" type="video/mp4" media="(min-width: 861px)">
+  <source src="assets/hero-video-3.mp4" type="video/mp4">
+</video>
     <div class="hero-overlay"></div>
    <div class="wrap hero-inner">
   <p class="hero-kicker">Surat · Mumbai · Worldwide</p>
