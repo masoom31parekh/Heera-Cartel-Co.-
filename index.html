@@ -161,9 +161,24 @@
   section{ padding:120px 0; border-bottom:1px solid var(--line); }
   section.alt{ background:var(--bg-alt); }
   .section-head{ display:grid; grid-template-columns:0.7fr 1.3fr; gap:50px; align-items:end; margin-bottom:60px; }
-  .section-head h2{ font-size:clamp(2rem, 3.6vw, 3.1rem); line-height:1.02; }
+  .section-head h2{
+  font-family:'Cormorant Garamond', serif;
+  font-size:clamp(3rem, 5vw, 5rem);
+  line-height:0.95;
+  font-weight:500;
+  letter-spacing:-0.02em;
+  color:var(--ink);
+}
   .section-head p{ color:var(--ink-dim); font-size:0.95rem; line-height:1.7; max-width:440px; }
-  .section-label{ font-size:0.68rem; letter-spacing:0.24em; color:var(--grey); text-transform:uppercase; margin-bottom:14px; display:block; }
+  .section-label{
+  font-size:0.75rem;
+  font-weight:500;
+  letter-spacing:0.2em;
+  color:var(--ink);
+  text-transform:uppercase;
+  margin-bottom:14px;
+  display:block;
+}
   @media (max-width: 780px){ .section-head{ grid-template-columns:1fr; } }
 
   /* ---------- ABOUT ---------- */
