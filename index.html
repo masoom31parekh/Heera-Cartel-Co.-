@@ -43,19 +43,78 @@
   .nav-row{ display:flex; align-items:center; justify-content:space-between; height:74px; }
   .brand{ font-family:'Cormorant Garamond', serif; font-size:1.5rem; letter-spacing:0.02em; }
   .brand small{ display:block; font-family:'Jost',sans-serif; font-size:0.55rem; letter-spacing:0.28em; color:var(--grey); margin-top:2px; }
-  nav.links{ display:flex; gap:34px; }
-  nav.links a{ font-size:0.72rem; letter-spacing:0.06em; color:var(--ink-dim); transition:color .3s; position:relative; }
-  nav.links a:hover{ color:var(--ink); }
+
+  /* ---------- HEADER RIGHT / SIDE MENU (NEW) ---------- */
+  .header-right{ display:flex; align-items:center; gap:18px; }
   .nav-cta{ border:1px solid var(--line-strong); padding:10px 20px; font-size:0.72rem; letter-spacing:0.06em; transition:.3s; }
   .nav-cta:hover{ background:var(--ink); color:var(--bg); }
-  .burger{ display:none; background:none; border:1px solid var(--line-strong); color:var(--ink); width:40px; height:40px; align-items:center; justify-content:center; font-size:1.1rem; }
-  @media (max-width: 860px){
-    nav.links, .nav-cta{ display:none; }
-    .burger{ display:flex; }
+  .menu-trigger{
+    background:none; border:none; color:var(--ink);
+    font-family:'Jost',sans-serif; font-size:0.72rem; letter-spacing:0.14em;
+    text-transform:uppercase; cursor:pointer; padding:8px 0;
+    display:flex; align-items:center; gap:10px;
   }
-  #mobileMenu{ display:none; flex-direction:column; border-top:1px solid var(--line); background:var(--bg); }
-  #mobileMenu.open{ display:flex; }
-  #mobileMenu a{ padding:16px 28px; border-bottom:1px solid var(--line); font-family:'Cormorant Garamond',serif; font-size:1.3rem; }
+  .menu-trigger::before{
+    content:""; width:26px; height:1px; background:var(--line-strong); transition:.3s;
+  }
+  .menu-trigger:hover::before{ width:36px; background:var(--ink); }
+  @media (max-width:560px){ .nav-cta{ display:none; } }
+
+  #menuOverlay{
+    position:fixed; inset:0; background:rgba(10,10,10,0.6);
+    backdrop-filter:blur(3px);
+    opacity:0; visibility:hidden; transition:opacity .45s ease;
+    z-index:90;
+  }
+  #menuOverlay.open{ opacity:1; visibility:visible; }
+
+  #sideMenu{
+    position:fixed; top:0; left:0; height:100%;
+    width:min(440px, 86vw);
+    background:var(--bg-alt);
+    border-right:1px solid var(--line);
+    transform:translateX(-100%);
+    transition:transform .55s cubic-bezier(.16,1,.3,1);
+    z-index:100;
+    display:flex; flex-direction:column;
+  }
+  #sideMenu.open{ transform:translateX(0); }
+
+  .menu-close{
+    align-self:flex-end; margin:28px 28px 0 0;
+    background:none; border:1px solid var(--line-strong); color:var(--ink);
+    width:42px; height:42px; font-size:1.4rem; line-height:1;
+    cursor:pointer; transition:.3s;
+  }
+  .menu-close:hover{ background:var(--ink); color:var(--bg); }
+
+  .side-menu-inner{ padding:20px 48px 48px; display:flex; flex-direction:column; flex:1; }
+  .side-menu-label{
+    font-size:0.65rem; letter-spacing:0.24em; color:var(--grey);
+    text-transform:uppercase; margin-bottom:20px; margin-top:40px;
+  }
+  .side-link{
+    font-family:'Cormorant Garamond',serif; font-size:2.1rem; font-style:italic;
+    color:var(--ink-dim); padding:16px 0; border-bottom:1px solid var(--line);
+    display:flex; align-items:baseline; gap:18px; transition:.3s;
+  }
+  .side-link span{
+    font-family:'Jost',sans-serif; font-style:normal; font-size:0.7rem;
+    letter-spacing:0.1em; color:var(--grey);
+  }
+  .side-link:hover{ color:var(--ink); padding-left:10px; }
+
+  .side-menu-footer{ margin-top:auto; display:flex; gap:16px; padding-top:30px; }
+  .side-menu-footer a{
+    font-size:0.68rem; letter-spacing:0.08em; color:var(--grey);
+    border:1px solid var(--line); padding:10px 16px; transition:.3s;
+  }
+  .side-menu-footer a:hover{ color:var(--ink); border-color:var(--line-strong); }
+
+  @media (max-width:560px){
+    #sideMenu{ width:100%; }
+    .side-link{ font-size:1.7rem; }
+  }
 
   /* ---------- HERO ---------- */
   .hero{
@@ -214,26 +273,32 @@
 <header>
   <div class="wrap nav-row">
     <a href="#top" class="brand">Heera Cartel Co.<small>Diamond Wholesalers</small></a>
-    <nav class="links">
-      <a href="#about">About</a>
-      <a href="#catalogue">Catalogue</a>
-      <a href="#education">Know Your Diamonds</a>
-      <a href="#pricing">Rate Guide</a>
-      <a href="#certification">Certificates</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a href="#contact" class="nav-cta">Shop Diamonds</a>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu">☰</button>
-  </div>
-  <div id="mobileMenu">
-    <a href="#about">About</a>
-    <a href="#catalogue">Catalogue</a>
-    <a href="#education">Know Your Diamonds</a>
-    <a href="#pricing">Rate Guide</a>
-    <a href="#certification">Certificates</a>
-    <a href="#contact">Contact</a>
+    <div class="header-right">
+      <a href="#contact" class="nav-cta">Shop Diamonds</a>
+      <button class="menu-trigger" id="menuTrigger" aria-label="Open menu">
+        <span>Menu</span>
+      </button>
+    </div>
   </div>
 </header>
+
+<div id="menuOverlay"></div>
+<nav id="sideMenu">
+  <button class="menu-close" id="menuClose" aria-label="Close menu">×</button>
+  <div class="side-menu-inner">
+    <span class="side-menu-label">Navigate</span>
+    <a href="#about" class="side-link"><span>01</span>About</a>
+    <a href="#catalogue" class="side-link"><span>02</span>Catalogue</a>
+    <a href="#education" class="side-link"><span>03</span>Know Your Diamonds</a>
+    <a href="#pricing" class="side-link"><span>04</span>Rate Guide</a>
+    <a href="#certification" class="side-link"><span>05</span>Certificates</a>
+    <a href="#contact" class="side-link"><span>06</span>Contact</a>
+    <div class="side-menu-footer">
+      <a href="https://www.instagram.com/heeracartel.co" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="mailto:information@heeracartel.com">Email</a>
+    </div>
+  </div>
+</nav>
 
 <main id="top">
 
@@ -547,11 +612,28 @@
 </footer>
 
 <script>
-  // Mobile menu
-  const burger = document.getElementById('burgerBtn');
-  const mobileMenu = document.getElementById('mobileMenu');
-  burger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
-  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+  // Side menu (left drawer, desktop + mobile)
+  const menuTrigger = document.getElementById('menuTrigger');
+  const menuClose = document.getElementById('menuClose');
+  const sideMenu = document.getElementById('sideMenu');
+  const menuOverlay = document.getElementById('menuOverlay');
+
+  function openMenu(){
+    sideMenu.classList.add('open');
+    menuOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMenu(){
+    sideMenu.classList.remove('open');
+    menuOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  menuTrigger.addEventListener('click', openMenu);
+  menuClose.addEventListener('click', closeMenu);
+  menuOverlay.addEventListener('click', closeMenu);
+  sideMenu.querySelectorAll('.side-link').forEach(a => a.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', e => { if(e.key === 'Escape') closeMenu(); });
 
   // Catalogue tabs
   document.querySelectorAll('.cat-tab').forEach(btn => {
@@ -640,8 +722,3 @@
 
 </body>
 </html>
-Change Inquire button to Shop Diamonds
-Update hero background video
-Update hero headline and subtext
-Update hero background video
-Update hero background video
