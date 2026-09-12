@@ -1071,7 +1071,7 @@
   <section id="journal">
     <div class="wrap">
       <div class="section-head">
-        <span class="section-label">Notes from the house</span>
+        <span class="section-label">Notes from one business to other</span>
         <h2>Read before<br>you choose.</h2>
         <p>A small library of useful thoughts for people building with diamonds.</p>
       </div>
@@ -1098,6 +1098,341 @@
     <div class="wrap">
       <div class="section-head">
         <span class="section-label">Questions</span>
+        <h2>The details matter.</h2>
+        <p>A few answers before the first conversation. If yours is not here, our team is one message away.</p>
+      </div>
+      <div class="faq-list" id="faqList">
+        <div class="faq-item open">
+          <button class="faq-q"><h4>Can you help a small jewellery business choose a parcel?</h4><span class="icon">+</span></button>
+          <div class="faq-a"><p>Yes. We guide independent jewellers through shape, quality, sourcing and suitability for their customer. The goal is to make every selection commercially clear and personally right.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><h4>Do you work with both natural and lab grown diamonds?</h4><span class="icon">+</span></button>
+          <div class="faq-a"><p>Yes. We source natural diamonds and lab grown diamonds, including CVD and HPHT options, with a clear conversation around origin, grading and intended use.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><h4>Can I visit your offices?</h4><span class="icon">+</span></button>
+          <div class="faq-a"><p>We welcome conversations at our offices in Surat and Mumbai. Send an inquiry with your preferred city and we will arrange the next step.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><h4>How do you ship diamonds?</h4><span class="icon">+</span></button>
+          <div class="faq-a"><p>Parcels are prepared with care and sent through secure FedEx delivery. We support clients across India and worldwide with guidance on the delivery process.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><h4>Can you help me understand a certificate?</h4><span class="icon">+</span></button>
+          <div class="faq-a"><p>Absolutely. Send the report details through an inquiry and we can help you read the important information, then verify it with the issuing laboratory.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact" style="border:none;">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="section-label" style="color:#4d4d4d;">Begin the conversation</span>
+        <h2>Let us find the right stone.</h2>
+        <p class="contact-sub">Tell us what you are building. We will reply with clarity, counsel and the next useful step.</p>
+        <div class="contact-links">
+          <a href="https://www.instagram.com/heeracartel.co" target="_blank" rel="noreferrer">Instagram DM</a>
+          <a href="mailto:information@heeracartel.com">Direct Email</a>
+        </div>
+      </div>
+      <form id="inquiryForm" action="https://formspree.io/f/mdeojpdj" method="POST">
+        <div class="field-row">
+          <label>Your Name<input type="text" id="f-name" name="name" required></label>
+          <label>Email Address<input type="email" id="f-email" name="email" required></label>
+        </div>
+        <label>Company or Studio<input type="text" id="f-company" name="company"></label>
+        <label>What Are You Looking For?<textarea id="f-message" name="message" required></textarea></label>
+        <input type="hidden" name="_subject" value="Wholesale diamond inquiry from Heera Cartel Co.">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <button type="submit" class="submit-btn" id="submitBtn">Send Inquiry</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="#top" class="brand" style="justify-self:auto;">
+        <span class="brand-text">Heera Cartel Co.<small>Diamond Wholesalers</small></span>
+      </a>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/heeracartel.co" target="_blank" rel="noreferrer" aria-label="Instagram">IG</a>
+        <a href="https://www.facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Surat · Mumbai · India · Worldwide</span>
+      <span>Unlock the true value of diamonds</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Side menu (left drawer, desktop + mobile)
+  const menuTrigger = document.getElementById('menuTrigger');
+  const menuClose = document.getElementById('menuClose');
+  const sideMenu = document.getElementById('sideMenu');
+  const menuOverlay = document.getElementById('menuOverlay');
+
+  function openMenu(){
+    sideMenu.classList.add('open');
+    menuOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMenu(){
+    sideMenu.classList.remove('open');
+    menuOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  menuTrigger.addEventListener('click', openMenu);
+  menuClose.addEventListener('click', closeMenu);
+  menuOverlay.addEventListener('click', closeMenu);
+  sideMenu.querySelectorAll('.side-link').forEach(a => a.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', e => { if(e.key === 'Escape') closeMenu(); });
+
+  // Header gets a slightly stronger dark backing once you scroll past the hero
+  const siteHeader = document.getElementById('siteHeader');
+  function updateHeaderOnScroll(){
+    if(window.scrollY > 40){ siteHeader.classList.add('scrolled'); }
+    else{ siteHeader.classList.remove('scrolled'); }
+  }
+  window.addEventListener('scroll', updateHeaderOnScroll);
+  updateHeaderOnScroll();
+
+  // ---- CATALOGUE: 10 representative stones per category, no prices ----
+  // Swap "img" paths for real per-stone photography whenever it's ready.
+  const stones = {
+    natural: [
+      { ref:"HC-N-101", shape:"Round", carat:"1.00 ct", colour:"F", clarity:"VS1", cut:"Excellent", cert:"GIA", media:[
+          { type:"video", src:"assets/round-video-01.mp4" },
+          { type:"image", src:"assets/round01.png" },
+          { type:"image", src:"assets/round02.png" },
+          { type:"image", src:"assets/round03.png" }
+        ] },
+      { ref:"HC-N-102", shape:"Oval", carat:"1.51 ct", colour:"G", clarity:"VS2", cut:"Very Good", cert:"IGI", media:[{type:"image", src:"assets/oval.jpg"}] },
+      { ref:"HC-N-103", shape:"Emerald", carat:"2.03 ct", colour:"H", clarity:"VS1", cut:"Excellent", cert:"GIA", media:[{type:"image", src:"assets/emerald.jpg"}] },
+      { ref:"HC-N-104", shape:"Round", carat:"0.71 ct", colour:"E", clarity:"VVS2", cut:"Excellent", cert:"GIA", media:[{type:"image", src:"assets/round.jpg"}] },
+      { ref:"HC-N-105", shape:"Pear", carat:"1.20 ct", colour:"F", clarity:"SI1", cut:"Very Good", cert:"IGI", media:[{type:"image", src:"assets/pear.jpg"}] },
+      { ref:"HC-N-106", shape:"Princess", carat:"1.35 ct", colour:"G", clarity:"VS1", cut:"Excellent", cert:"GIA", media:[{type:"image", src:"assets/princess.jpg"}] },
+      { ref:"HC-N-107", shape:"Radiant", carat:"1.80 ct", colour:"H", clarity:"VS2", cut:"Very Good", cert:"IGI", media:[{type:"image", src:"assets/radiant.jpg"}] },
+      { ref:"HC-N-108", shape:"Heart", carat:"1.05 ct", colour:"F", clarity:"SI1", cut:"Good", cert:"IGI", media:[{type:"image", src:"assets/heart.jpg"}] },
+      { ref:"HC-N-109", shape:"Round", carat:"2.15 ct", colour:"D", clarity:"VVS1", cut:"Excellent", cert:"GIA", media:[{type:"image", src:"assets/round.jpg"}] },
+      { ref:"HC-N-110", shape:"Oval", carat:"0.95 ct", colour:"G", clarity:"VS1", cut:"Very Good", cert:"IGI", media:[{type:"image", src:"assets/oval.jpg"}] }
+    ],
+    lab: [
+      { ref:"HC-L-201", shape:"Round", carat:"1.10 ct", colour:"E", clarity:"VVS2", growth:"CVD", cert:"IGI", media:[{type:"image", src:"assets/round.jpg"}] },
+      { ref:"HC-L-202", shape:"Princess", carat:"1.60 ct", colour:"F", clarity:"VS1", growth:"HPHT", cert:"IGI", media:[{type:"image", src:"assets/princess.jpg"}] },
+      { ref:"HC-L-203", shape:"Emerald", carat:"2.00 ct", colour:"D", clarity:"VVS1", growth:"CVD", cert:"IGI", media:[{type:"image", src:"assets/emerald.jpg"}] },
+      { ref:"HC-L-204", shape:"Oval", carat:"1.75 ct", colour:"G", clarity:"VS2", growth:"CVD", cert:"IGI", media:[{type:"image", src:"assets/oval.jpg"}] },
+      { ref:"HC-L-205", shape:"Pear", carat:"1.30 ct", colour:"F", clarity:"VS1", growth:"HPHT", cert:"IGI", media:[{type:"image", src:"assets/pear.jpg"}] },
+      { ref:"HC-L-206", shape:"Round", carat:"2.05 ct", colour:"E", clarity:"VS1", growth:"CVD", cert:"IGI", media:[{type:"image", src:"assets/round.jpg"}] },
+      { ref:"HC-L-207", shape:"Radiant", carat:"1.85 ct", colour:"H", clarity:"VS2", growth:"CVD", cert:"IGI", media:[{type:"image", src:"assets/radiant.jpg"}] },
+      { ref:"HC-L-208", shape:"Heart", carat:"1.15 ct", colour:"F", clarity:"VVS2", growth:"HPHT", cert:"IGI", media:[{type:"image", src:"assets/heart.jpg"}] },
+      { ref:"HC-L-209", shape:"Cushion", carat:"1.50 ct", colour:"G", clarity:"VS1", growth:"CVD", cert:"IGI", media:[{type:"image", src:"assets/princess.jpg"}] },
+      { ref:"HC-L-210", shape:"Round", carat:"0.90 ct", colour:"D", clarity:"IF", growth:"HPHT", cert:"IGI", media:[{type:"image", src:"assets/round.jpg"}] }
+    ],
+    coloured: [
+      { ref:"HC-C-301", shape:"Round", carat:"0.85 ct", colour:"Fancy Yellow", clarity:"VS1", origin:"Natural", cert:"GIA", media:[{type:"image", src:"assets/round.jpg"}] },
+      { ref:"HC-C-302", shape:"Cushion", carat:"1.05 ct", colour:"Fancy Pink", clarity:"VS2", origin:"Lab Grown", cert:"IGI", media:[{type:"image", src:"assets/princess.jpg"}] },
+      { ref:"HC-C-303", shape:"Oval", carat:"1.20 ct", colour:"Fancy Intense Yellow", clarity:"SI1", origin:"Natural", cert:"GIA", media:[{type:"image", src:"assets/oval.jpg"}] },
+      { ref:"HC-C-304", shape:"Pear", carat:"0.95 ct", colour:"Champagne", clarity:"VS1", origin:"Natural", cert:"IGI", media:[{type:"image", src:"assets/pear.jpg"}] },
+      { ref:"HC-C-305", shape:"Radiant", carat:"1.40 ct", colour:"Fancy Blue", clarity:"VS2", origin:"Lab Grown", cert:"IGI", media:[{type:"image", src:"assets/radiant.jpg"}] },
+      { ref:"HC-C-306", shape:"Round", carat:"1.10 ct", colour:"Fancy Vivid Yellow", clarity:"VS1", origin:"Lab Grown", cert:"IGI", media:[{type:"image", src:"assets/round.jpg"}] },
+      { ref:"HC-C-307", shape:"Emerald", carat:"1.60 ct", colour:"Cognac", clarity:"SI1", origin:"Natural", cert:"IGI", media:[{type:"image", src:"assets/emerald.jpg"}] },
+      { ref:"HC-C-308", shape:"Heart", carat:"0.80 ct", colour:"Fancy Pink", clarity:"VS2", origin:"Natural", cert:"GIA", media:[{type:"image", src:"assets/heart.jpg"}] },
+      { ref:"HC-C-309", shape:"Princess", carat:"1.00 ct", colour:"Black", clarity:"Opaque", origin:"Natural", cert:"IGI", media:[{type:"image", src:"assets/princess.jpg"}] },
+      { ref:"HC-C-310", shape:"Oval", carat:"1.30 ct", colour:"Fancy Green", clarity:"VS1", origin:"Lab Grown", cert:"IGI", media:[{type:"image", src:"assets/oval.jpg"}] }
+    ]
+  };
+
+  function waLink(stone){
+    const msg = `Hi Heera Cartel Co., I'd like more details on stone reference ${stone.ref} (${stone.shape}, ${stone.carat}).`;
+    return `https://wa.me/919876543210?text=${encodeURIComponent(msg)}`;
+  }
+
+  function specRows(stone, category){
+    if(category === "natural"){
+      return [["Colour", stone.colour], ["Clarity", stone.clarity], ["Cut", stone.cut]];
+    }
+    if(category === "lab"){
+      return [["Colour", stone.colour], ["Clarity", stone.clarity], ["Growth", stone.growth]];
+    }
+    return [["Colour", stone.colour], ["Clarity", stone.clarity], ["Origin", stone.origin]];
+  }
+
+  // Renders a stone's media array (one or many images/videos) with arrows + dots
+  // when there's more than one item, and a plain single image/video when there's just one.
+  function renderMedia(stone){
+    const items = stone.media.map((m, i) => `
+      <div class="media-item ${i === 0 ? 'active' : ''}">
+        ${m.type === 'video'
+          ? `<video src="${m.src}" muted loop playsinline autoplay></video>`
+          : `<img src="${m.src}" alt="${stone.shape} cut diamond, ${stone.carat}">`}
+      </div>
+    `).join("");
+    const nav = stone.media.length > 1 ? `
+      <button class="media-nav prev" onclick="stepMedia(this,-1)">‹</button>
+      <button class="media-nav next" onclick="stepMedia(this,1)">›</button>
+      <div class="media-dots">
+        ${stone.media.map((_, i) => `<span class="dot ${i === 0 ? 'active' : ''}"></span>`).join("")}
+      </div>
+    ` : "";
+    return items + nav;
+  }
+
+  function renderStoneGrid(category){
+    const grid = document.getElementById(`grid-${category}`);
+    grid.innerHTML = stones[category].map(stone => `
+      <div class="stone-card">
+        <div class="stone-frame" data-active="0">
+          ${renderMedia(stone)}
+          <span class="stone-ref">${stone.ref}</span>
+        </div>
+        <div class="stone-body">
+          <p class="stone-title">${stone.shape} · ${stone.carat}</p>
+          <div class="stone-specs">
+            ${specRows(stone, category).map(([k,v]) => `<div class="row"><span class="k">${k}</span><span class="v">${v}</span></div>`).join("")}
+          </div>
+          <p class="stone-cert">${stone.cert} Certified</p>
+          <a class="stone-cta" href="${waLink(stone)}" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        </div>
+      </div>
+    `).join("");
+  }
+  ["natural","lab","coloured"].forEach(renderStoneGrid);
+
+  // Steps a card's media forward/back when it has more than one image/video.
+  function stepMedia(btn, dir){
+    const frame = btn.closest('.stone-frame');
+    const items = frame.querySelectorAll('.media-item');
+    const dots = frame.querySelectorAll('.dot');
+    let idx = parseInt(frame.dataset.active || "0", 10);
+    idx = (idx + dir + items.length) % items.length;
+    items.forEach((el, i) => el.classList.toggle('active', i === idx));
+    dots.forEach((el, i) => el.classList.toggle('active', i === idx));
+    frame.dataset.active = idx;
+  }
+
+  // Catalogue tabs — now switches both the intro-copy panel AND the matching stone grid
+  document.querySelectorAll('.cat-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.cat-tab').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.cat-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
+      document.getElementById('stones-' + btn.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Education tabs
+  const eduData = {
+    "beginners": {
+      label: "Beginners Guide",
+      title: "Beginners Guide to Buying Diamonds",
+      body: "Every diamond is evaluated on four core qualities, often called the four Cs: carat weight, cut, colour and clarity. Carat measures weight, cut describes how well the stone has been shaped and faceted to reflect light, colour ranges from icy white to warm tones, and clarity refers to internal or surface characteristics.",
+      note: "A helpful approach is to set a size and budget range first, then prioritise cut quality, since a well cut diamond will look brighter and larger than a poorly cut diamond of the same weight. Always ask for independent certification and buy from a source willing to explain the grading report to you."
+    },
+    "natural-lab": {
+      label: "Natural vs Lab Grown",
+      title: "Natural vs Lab Grown Debate",
+      body: "Natural diamonds form over billions of years under the earth's surface, while lab grown diamonds are created in weeks using the CVD or HPHT process. Chemically, physically and visually, the two are identical, and both require the same grading and certification standards from recognised laboratories.",
+      note: "Choose natural if you value the rarity and long trading history behind a stone. Choose lab grown if you want the same optical and physical qualities, often with greater size and clarity for the same budget."
+    },
+    "sizes": {
+      label: "Carat vs Millimetre",
+      title: "Learn Diamond Sizes",
+      body: "Carat is a unit of weight, not size. One carat equals two hundred milligrams. Millimetre measurements describe the physical diameter or length and width as seen from above. Two diamonds of the same carat weight can look different depending on their shape and how deep the stone is cut.",
+      note: "A one carat round diamond typically measures close to six and a half millimetres across, while a one carat oval, being more elongated, can appear noticeably larger across its length despite weighing the same."
+    },
+    "cuts": {
+      label: "Understanding Cuts",
+      title: "Understanding Diamond Cuts",
+      body: "Cut is often confused with shape, but it actually describes the quality of the proportions, symmetry and polish that determine how light travels through a stone. A diamond with excellent cut grading shows more brilliance and sparkle than one with a lower grade, even at the same carat, colour and clarity.",
+      note: "Cut is graded from excellent through very good, good, fair and poor. We recommend prioritising cut quality above almost every other factor, since it has the greatest visual impact on how a diamond performs in daylight and indoor lighting."
+    },
+    "certs": {
+      label: "Certification Explained",
+      title: "Diamond Certification, Explained",
+      body: "A certificate, or grading report, is issued by an independent laboratory that examines a stone under controlled conditions and records its carat weight, cut, colour, clarity and measurements, along with a unique report number. This is your assurance that the diamond is exactly what it is represented to be.",
+      note: "The most widely recognised laboratories are IGI, GIA and other reputable bodies. Every certified diamond can usually be verified online using its report number on the issuing laboratory's website."
+    }
+  };
+  const eduContent = document.getElementById('eduContent');
+  function renderEdu(key){
+    const d = eduData[key];
+    eduContent.innerHTML = `
+      <p class="k">${d.label}</p>
+      <h3>${d.title}</h3>
+      <p class="body">${d.body}</p>
+      <div class="note"><b>A useful way to think about it</b><p>${d.note}</p></div>
+    `;
+  }
+  document.querySelectorAll('.edu-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.edu-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderEdu(btn.dataset.edu);
+    });
+  });
+  renderEdu('beginners');
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.closest('.faq-item');
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if(!wasOpen) item.classList.add('open');
+    });
+  });
+
+  // Contact form -> submits directly to Formspree via fetch, no page reload
+  const inquiryForm = document.getElementById('inquiryForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const formStatus = document.getElementById('formStatus');
+
+  inquiryForm.addEventListener('submit', async function(e){
+    e.preventDefault();
+
+    formStatus.classList.remove('show', 'success', 'error');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    try {
+      const formData = new FormData(inquiryForm);
+      const response = await fetch(inquiryForm.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        inquiryForm.reset();
+        submitBtn.textContent = 'Send Inquiry';
+        formStatus.textContent = "Thank you — your inquiry has been sent. We'll be in touch shortly.";
+        formStatus.classList.add('show', 'success');
+      } else {
+        throw new Error('Submission failed');
+      }
+    } catch (err) {
+      submitBtn.textContent = 'Send Inquiry';
+      formStatus.textContent = "Something went wrong sending your inquiry. Please try again or email us directly at information@heeracartel.com.";
+      formStatus.classList.add('show', 'error');
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+</script>
+
+</body>
+</html>
         <h2>The details matter.</h2>
         <p>A few answers before the first conversation. If yours is not here, our team is one message away.</p>
       </div>
