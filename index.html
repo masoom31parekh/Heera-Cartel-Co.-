@@ -7,8 +7,30 @@
 <meta name="description" content="Heera Cartel Co. is a diamond wholesaler based in Surat and Mumbai, serving jewellers and collectors worldwide with honest wholesale rates and diamond education." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
+  /*
+    NOTE ON FONTS
+    --------------
+    "Kudryashev Display" and "Simple Serenity" are paid fonts (ParaType / Set Sail Studios) licensed
+    for use inside Canva only. To use the exact fonts here, buy a WEB FONT license from the foundry
+    (Fontspring/MyFonts for Kudryashev Display, MyFonts/Creative Market for Simple Serenity), then
+    drop the .woff2 files into assets/fonts/ and uncomment the @font-face rules below.
+    Until then, the site uses close free alternatives: Bodoni Moda (for Kudryashev Display) and
+    Cormorant Garamond (for Simple Serenity) so the layout and hierarchy already look right.
+  */
+  /*
+  @font-face{
+    font-family:'Kudryashev Display';
+    src:url('assets/fonts/KudryashevDisplay.woff2') format('woff2');
+    font-weight:400; font-style:normal; font-display:swap;
+  }
+  @font-face{
+    font-family:'Simple Serenity Serif';
+    src:url('assets/fonts/SimpleSerenitySerif.woff2') format('woff2');
+    font-weight:400; font-style:normal; font-display:swap;
+  }
+  */
   :root{
     /* Quiet Luxury palette */
     --bg:#11110f;
@@ -25,6 +47,9 @@
     /* Quiet Luxury typography */
     --serif:'Instrument Serif', serif;
     --sans:'Manrope', sans-serif;
+    /* Stand-ins for the Canva-only fonts until licensed webfont files are added — see note above */
+    --display:'Kudryashev Display', 'Bodoni Moda', serif;
+    --monogram:'Simple Serenity Serif', 'Cormorant Garamond', serif;
     /* Header now shares the dark palette so it blends with the page instead of sitting on top of it as a white band */
     --header-bg: rgba(10,10,10,0.55);
     --header-ink: var(--ink);
@@ -62,14 +87,26 @@
     align-items:center; height:92px; column-gap:16px;
   }
   .brand{
-    justify-self:center; display:flex; flex-direction:column; align-items:center; gap:6px;
+    justify-self:center; display:flex; align-items:center; gap:12px;
     color:var(--header-ink);
   }
-  .brand-mark{ height:44px; width:auto; }
-  .brand-wordmark{
-    height:16px; width:auto;
-    /* the word logo is dark text on a transparent background; invert it so it reads light against the dark header/hero */
-    filter:invert(1) brightness(1.7);
+  .brand-text{
+    font-family:var(--display);
+    font-size:1.7rem;
+    font-weight:400;
+    letter-spacing:0.01em;
+    line-height:1;
+    color:var(--header-ink);
+  }
+  .brand-text small{
+    display:block;
+    font-family:var(--sans);
+    font-size:0.5rem;
+    font-weight:500;
+    letter-spacing:0.25em;
+    color:var(--grey);
+    margin-top:6px;
+    text-transform:uppercase;
   }
 
   .nav-cta{
@@ -208,6 +245,33 @@
     font-style:italic;
     color:var(--accent);
   }
+  /* Hero brand lockup: name in the display font, then a descending hierarchy of taglines */
+.hero-brand{
+    font-family:var(--display);
+    font-size:clamp(3.4rem,7vw,6.6rem);
+    font-weight:400;
+    line-height:0.96;
+    letter-spacing:-0.01em;
+    /* NOTE: set to pure black per request — on this dark hero video it will read very faintly.
+       If it disappears against your footage, swap #000 for var(--ink) (off-white) instead. */
+    color:#000;
+  }
+.hero-line1{
+    margin-top:20px;
+    font-family:var(--serif);
+    font-style:italic;
+    font-size:1.55rem;
+    font-weight:400;
+    color:var(--ink);
+  }
+.hero-line2{
+    margin-top:10px;
+    font-family:var(--serif);
+    font-style:italic;
+    font-size:1.2rem;
+    font-weight:400;
+    color:var(--ink-dim);
+  }
 .hero-tagline{
     margin-top:28px;
     font-family:var(--serif);
@@ -217,9 +281,9 @@
     color:var(--ink-dim);
   }
 .hero-sub{
-    margin-top:14px;
+    margin-top:10px;
     font-family:var(--sans);
-    font-size:0.94rem;
+    font-size:0.82rem;
     font-weight:300;
     line-height:1.85;
     color:var(--ink-dim);
@@ -673,8 +737,7 @@
     </button>
 
     <a href="#top" class="brand">
-      <img src="assets/logo.png" alt="Heera Cartel Co. diamond mark" class="brand-mark" onerror="this.style.display='none'">
-      <img src="assets/logo-text.png" alt="Heera Cartel Co." class="brand-wordmark" onerror="this.style.display='none'">
+      <span class="brand-text">Heera Cartel Co.<small>Diamond Wholesalers</small></span>
     </a>
 
     <a href="https://wa.me/919876543210?text=Hi%20Heera%20Cartel%20Co.%2C%20I%27d%20like%20to%20know%20more%20about%20your%20diamonds." 
@@ -715,12 +778,13 @@
   <div class="hero-overlay"></div>
   <div class="wrap hero-inner">
     <p class="hero-kicker">Surat · Mumbai · Worldwide</p>
-    <h1>RARE DIAMONDS.<br>RARER PRICES.</h1>
-    <p class="hero-tagline">The gateway to better margins.</p>
+    <h1 class="hero-brand">Heera Cartel Co.</h1>
+    <p class="hero-line1">Rare Diamonds, Rarer Prices</p>
+    <p class="hero-line2">The gateway to better margins.</p>
     <p class="hero-sub">Access exceptional natural and lab-grown diamonds at insider rates.</p>
     <div class="hero-actions">
       <a href="#catalogue" class="btn-solid">Enter the Cartel</a>
-      <a href="#about" class="btn-line">Our point of view</a>
+      <a href="#certification" class="btn-line">Verify Your Diamond</a>
     </div>
   </div>
   <div class="hero-facts-strip">
@@ -1048,9 +1112,8 @@
 <footer>
   <div class="wrap">
     <div class="footer-top">
-      <a href="#top" class="brand" style="justify-self:auto; align-items:flex-start;">
-        <img src="assets/logo.png" alt="Heera Cartel Co. logo" class="brand-mark" style="height:34px;" onerror="this.style.display='none'">
-        <img src="assets/logo-text.png" alt="Heera Cartel Co." class="brand-wordmark" style="height:14px; filter:invert(1) brightness(1.7);" onerror="this.style.display='none'">
+      <a href="#top" class="brand" style="justify-self:auto;">
+        <span class="brand-text">Heera Cartel Co.<small>Diamond Wholesalers</small></span>
       </a>
       <div class="footer-social">
         <a href="https://www.instagram.com/heeracartel.co" target="_blank" rel="noreferrer" aria-label="Instagram">IG</a>
