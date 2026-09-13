@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R6YZ6HX8RH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R6YZ6HX8RH');
+</script>
+<title id="pageTitle">Diamonds — Heera Cartel Co.</title>
+<meta name="description" id="pageDesc" content="Certified diamonds from Heera Cartel Co., sourced direct from manufacturing units in Surat." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap nav-row">
+    <a href="index.html#catalogue" class="back-link" id="backLink">← Back to catalogue</a>
+    <a href="index.html" class="brand">
+      <span class="brand-text">Heera Cartel Co.<small>Diamond Wholesalers</small></span>
+    </a>
+    <a href="https://wa.me/919727857303?text=Hi%20Heera%20Cartel%20Co.%2C%20I%27d%20like%20to%20know%20more%20about%20your%20diamonds."
+       class="nav-cta" target="_blank" rel="noopener">Talk to Us</a>
+  </div>
+</header>
+
+<div id="menuOverlay"></div>
+<nav id="sideMenu">
+  <button class="menu-close" id="menuClose" aria-label="Close menu">×</button>
+  <div class="side-menu-inner">
+    <span class="side-menu-label">Navigate</span>
+    <a href="index.html#about" class="side-link"><span>01</span>About</a>
+    <a href="index.html#catalogue" class="side-link"><span>02</span>Catalogue</a>
+    <a href="index.html#education" class="side-link"><span>03</span>Diamond Intelligence</a>
+    <a href="index.html#pricing" class="side-link"><span>04</span>Rate Guide</a>
+    <a href="index.html#certification" class="side-link"><span>05</span>Certificates</a>
+    <a href="index.html#contact" class="side-link"><span>06</span>Contact</a>
+    <div class="side-menu-footer">
+      <a href="https://wa.me/919727857303?text=Hi%20Heera%20Cartel%20Co.%2C%20I%27d%20like%20to%20know%20more%20about%20your%20diamonds." target="_blank" rel="noopener">Talk to Us</a>
+      <a href="https://www.instagram.com/heeracartel.co" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="mailto:information@heeracartel.com">Email</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="intro">
+    <div class="wrap">
+      <p class="breadcrumb" id="breadcrumb"></p>
+      <span class="section-label" id="shapeLabel"></span>
+      <h1 id="shapeTitle"></h1>
+      <p id="shapeDesc"></p>
+    </div>
+  </section>
+
+  <section id="stones">
+    <div class="wrap">
+      <p class="cat-count" id="stoneCount"></p>
+      <div class="stone-grid" id="productGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="plain">
+  <div class="wrap footer-bottom">
+    <span>Surat · Mumbai · India · Worldwide</span>
+    <span>Unlock the true value of diamonds</span>
+  </div>
+</footer>
+
+<script src="catalogue-data.js"></script>
+<script src="site-common.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const catKey = params.get('cat') || 'natural';
+  const shapeSlug = params.get('shape') || 'round';
+
+  const cat = CATALOGUE_META.categories[catKey] || CATALOGUE_META.categories.natural;
+  const shapeName = CATALOGUE_META.shapes.find(s => CATALOGUE_META.shapeSlug[s] === shapeSlug) || 'Round';
+
+  const shapeIntros = {
+    round: "The round brilliant is the undisputed icon of the gem world, engineered by Marcel Tolkowsky for maximum brilliance, fire and scintillation. Its symmetry hides inclusions and masks body colour better than any other cut, and its rounded profile resists chipping in daily wear.",
+    princess: "The princess cut brings crisp, architectural lines to a square silhouette. Its pointed corners deliver strong brilliance while preserving more of the rough stone's original weight than round cuts.",
+    emerald: "The emerald cut favours open step facets over maximum sparkle, creating a quiet hall-of-mirrors effect that rewards exceptional clarity and clean proportion.",
+    oval: "The oval cut elongates the finger with a continuous, elegant glow, offering brilliance close to round while standing apart with its distinctive silhouette.",
+    pear: "The pear shape combines round-cut brilliance with a graceful single point, a versatile shape equally suited to rings, pendants and earrings.",
+    radiant: "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of a princess cut with sparkle closer to round.",
+    heart: "The heart cut is the most romantic and symbolic silhouette in diamond cutting, requiring exceptional skill from the cutter to achieve true symmetry."
+  };
+
+  document.getElementById('pageTitle').textContent = `${shapeName} Diamonds — ${cat.label} — Heera Cartel Co.`;
+  document.getElementById('pageDesc').setAttribute('content', `${shapeName} ${cat.label.toLowerCase()} from Heera Cartel Co. — wholesale, certified stones sourced direct from manufacturing units in Surat.`);
+
+  document.getElementById('breadcrumb').innerHTML = `
+    <a href="index.html">Home</a><span class="sep">/</span>
+    <a href="index.html#catalogue">${cat.label}</a><span class="sep">/</span>
+    <span class="current">${shapeName} Diamonds</span>
+  `;
+  document.getElementById('backLink').href = 'index.html#catalogue';
+  document.getElementById('shapeLabel').textContent = `${shapeName} · ${cat.label}`;
+  document.getElementById('shapeTitle').textContent = `${shapeName} Diamonds`;
+  document.getElementById('shapeDesc').textContent = shapeIntros[shapeSlug] || '';
+
+  const products = CATALOGUE.filter(p => p.category === catKey && p.shapeSlug === shapeSlug);
+  document.getElementById('stoneCount').textContent = `${products.length} representative ${shapeName.toLowerCase()} stones`;
+
+  function specRowsHtml(p){
+    return Object.entries(p.specs).slice(0, 3).map(([k, v]) => `
+      <div class="row"><span class="k">${k}</span><span class="v">${v}</span></div>
+    `).join('');
+  }
+
+  const grid = document.getElementById('productGrid');
+  grid.innerHTML = products.map(p => `
+    <div class="stone-card">
+      <a href="product.html?id=${p.id}">
+        <div class="stone-frame" data-active="0">
+          ${renderMediaItems(p.media, `${p.shape} diamond, ${p.carat}`)}
+          ${renderMediaNav(p.media)}
+          <span class="stone-ref">${p.ref}</span>
+        </div>
+      </a>
+      <div class="stone-body">
+        <a href="product.html?id=${p.id}"><p class="stone-title">${p.title}</p></a>
+        <div class="stone-specs">${specRowsHtml(p)}</div>
+        <p class="stone-cert">${p.cert} Certified</p>
+        <a class="stone-cta" href="product.html?id=${p.id}">View full details →</a>
+        <a class="stone-cta secondary" href="${waLink(WHATSAPP_NUMBER, 'Hi Heera Cartel Co., I would like more details on stone reference ' + p.ref + ' (' + p.shape + ', ' + p.carat + ').')}" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+      </div>
+    </div>
+  `).join('');
+
+  // Wire up media prev/next buttons rendered above (they call the shared stepMedia from site-common.js).
+</script>
+
+</body>
+</html>

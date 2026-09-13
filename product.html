@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R6YZ6HX8RH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R6YZ6HX8RH');
+</script>
+<title id="pageTitle">Diamond — Heera Cartel Co.</title>
+<meta name="description" id="pageDesc" content="Certified diamond from Heera Cartel Co., sourced direct from manufacturing units in Surat." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap nav-row">
+    <a href="index.html#catalogue" class="back-link" id="backLink">← Back to shape</a>
+    <a href="index.html" class="brand">
+      <span class="brand-text">Heera Cartel Co.<small>Diamond Wholesalers</small></span>
+    </a>
+    <a href="#" id="waTop" class="nav-cta" target="_blank" rel="noopener">Talk to Us</a>
+  </div>
+</header>
+
+<div id="menuOverlay"></div>
+<nav id="sideMenu">
+  <button class="menu-close" id="menuClose" aria-label="Close menu">×</button>
+  <div class="side-menu-inner">
+    <span class="side-menu-label">Navigate</span>
+    <a href="index.html#about" class="side-link"><span>01</span>About</a>
+    <a href="index.html#catalogue" class="side-link"><span>02</span>Catalogue</a>
+    <a href="index.html#education" class="side-link"><span>03</span>Diamond Intelligence</a>
+    <a href="index.html#pricing" class="side-link"><span>04</span>Rate Guide</a>
+    <a href="index.html#certification" class="side-link"><span>05</span>Certificates</a>
+    <a href="index.html#contact" class="side-link"><span>06</span>Contact</a>
+    <div class="side-menu-footer">
+      <a href="https://wa.me/919727857303" target="_blank" rel="noopener">Talk to Us</a>
+      <a href="https://www.instagram.com/heeracartel.co" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="mailto:information@heeracartel.com">Email</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="intro" style="padding-bottom:0; border-bottom:none;">
+    <div class="wrap">
+      <p class="breadcrumb" id="breadcrumb"></p>
+    </div>
+  </section>
+
+  <section class="product-section">
+    <div class="wrap">
+      <div class="product-grid" id="productRoot">
+        <!-- filled by JS: not found state or full product -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="plain">
+  <div class="wrap footer-bottom">
+    <span>Surat · Mumbai · India · Worldwide</span>
+    <span>Unlock the true value of diamonds</span>
+  </div>
+</footer>
+
+<script src="catalogue-data.js"></script>
+<script src="site-common.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const productId = params.get('id');
+  const product = CATALOGUE.find(p => p.id === productId);
+
+  const root = document.getElementById('productRoot');
+  const breadcrumb = document.getElementById('breadcrumb');
+  document.getElementById('waTop').href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Heera Cartel Co., I would like to know more about your diamonds.')}`;
+
+  if (!product) {
+    breadcrumb.innerHTML = `<a href="index.html">Home</a><span class="sep">/</span><span class="current">Product not found</span>`;
+    root.style.gridTemplateColumns = '1fr';
+    root.innerHTML = `
+      <div>
+        <h1 style="font-family:var(--serif); font-size:2.4rem;">We couldn't find that stone.</h1>
+        <p style="margin-top:16px; color:var(--ink-dim); max-width:60ch; line-height:1.8;">
+          The link may be out of date. Browse the catalogue to find the diamond you're looking for.
+        </p>
+        <a href="index.html#catalogue" class="btn-line" style="display:inline-block; margin-top:26px;">Back to catalogue →</a>
+      </div>
+    `;
+  } else {
+    document.getElementById('pageTitle').textContent = `${product.title} — ${product.ref} — Heera Cartel Co.`;
+    document.getElementById('pageDesc').setAttribute('content', product.writeup.slice(0, 155));
+    document.getElementById('backLink').href = `shape.html?cat=${product.category}&shape=${product.shapeSlug}`;
+
+    breadcrumb.innerHTML = `
+      <a href="index.html">Home</a><span class="sep">/</span>
+      <a href="index.html#catalogue">${product.categoryLabel}</a><span class="sep">/</span>
+      <a href="shape.html?cat=${product.category}&shape=${product.shapeSlug}">${product.shape} Diamonds</a><span class="sep">/</span>
+      <span class="current">${product.ref}</span>
+    `;
+
+    const specsHtml = Object.entries(product.specs).map(([k, v]) => `
+      <div class="row"><span class="k">${k}</span><span class="v">${v}</span></div>
+    `).join('') + `<div class="row"><span class="k">Carat</span><span class="v">${product.carat}</span></div>`;
+
+    const thumbsHtml = product.media.map((m, i) => `
+      <div class="gallery-thumb ${i === 0 ? 'active' : ''}" onclick="setGalleryIndex(${i})">
+        ${m.type === 'video'
+          ? `<video src="${m.src}" muted playsinline></video>`
+          : `<img src="${m.src}" alt="${product.shape} diamond view ${i + 1}" loading="lazy">`}
+      </div>
+    `).join('');
+
+    const waMsg = `Hi Heera Cartel Co., I'd like more details on stone reference ${product.ref} (${product.shape}, ${product.carat}).`;
+
+    root.innerHTML = `
+      <div class="product-gallery">
+        <div class="gallery-main" data-active="0">
+          ${renderMediaItems(product.media, `${product.shape} diamond, ${product.carat}`)}
+          ${renderMediaNav(product.media)}
+        </div>
+        <div class="gallery-thumbs">${thumbsHtml}</div>
+      </div>
+      <div class="product-info">
+        <p class="ref">Reference ${product.ref}</p>
+        <h1>${product.title}</h1>
+        <span class="cert-pill">${product.cert} Certified</span>
+        <div class="product-specs">${specsHtml}</div>
+        <p class="product-writeup">${product.writeup}</p>
+        <div class="product-actions">
+          <a class="btn-solid" href="${waLink(WHATSAPP_NUMBER, waMsg)}" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+          <a class="btn-line" href="mailto:information@heeracartel.com?subject=${encodeURIComponent('Inquiry: ' + product.ref)}">Email an inquiry</a>
+        </div>
+        <div class="product-related" id="relatedWrap"></div>
+      </div>
+    `;
+
+    // Keep gallery thumbnails in sync when the main image's own prev/next arrows are used.
+    window.setGalleryIndex = function(i){
+      const frame = document.querySelector('.gallery-main');
+      const items = frame.querySelectorAll('.media-item');
+      const dots = frame.querySelectorAll('.dot');
+      const thumbs = document.querySelectorAll('.gallery-thumb');
+      items.forEach((el, idx) => el.classList.toggle('active', idx === i));
+      dots.forEach((el, idx) => el.classList.toggle('active', idx === i));
+      thumbs.forEach((el, idx) => el.classList.toggle('active', idx === i));
+      frame.dataset.active = i;
+    };
+    // Sync thumbnails whenever the arrow buttons step the main gallery.
+    const mainFrame = document.querySelector('.gallery-main');
+    const observer = new MutationObserver(() => {
+      const idx = parseInt(mainFrame.dataset.active || '0', 10);
+      document.querySelectorAll('.gallery-thumb').forEach((el, i) => el.classList.toggle('active', i === idx));
+    });
+    observer.observe(mainFrame, { attributes: true, attributeFilter: ['data-active'] });
+
+    // Related stones: same shape + category, excluding this one
+    const related = CATALOGUE.filter(p => p.category === product.category && p.shapeSlug === product.shapeSlug && p.id !== product.id).slice(0, 4);
+    if (related.length) {
+      document.getElementById('relatedWrap').innerHTML = `
+        <h3>More ${product.shape.toLowerCase()} diamonds</h3>
+        <div class="stone-grid">
+          ${related.map(p => `
+            <div class="stone-card">
+              <a href="product.html?id=${p.id}">
+                <div class="stone-frame">
+                  <img src="${p.cover}" alt="${p.shape} diamond, ${p.carat}" loading="lazy">
+                  <span class="stone-ref">${p.ref}</span>
+                </div>
+                <div class="stone-body"><p class="stone-title">${p.title}</p></div>
+              </a>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+  }
+</script>
+
+</body>
+</html>
