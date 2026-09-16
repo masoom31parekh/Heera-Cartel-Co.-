@@ -43,35 +43,39 @@ const CATALOGUE = [
     "categoryLabel": "Natural Diamonds",
     "shape": "Round",
     "shapeSlug": "round",
-    "carat": "0.74 ct",
-    "cert": "GIA",
+    "carat": "0.25 ct",
+    "cert": "IGI",
     "specs": {
-      "Colour": "E",
-      "Clarity": "VVS1",
+      "Colour": "F/G",
+      "Clarity": "VVS",
       "Cut": "Very Good",
       "Origin": "Natural"
     },
-    "title": "Round \u00b7 0.74 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-N-101 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "title": "Round \u00b7 0.25 cents",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 0.25 cents diamond is graded F & G colour with VVS clarity, independently certified by IGI. Size between 1.80 mm to 2.5 mm. Reference HC-N-101 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-1-1.jpg"
+        "src": "assets/products/natural/round/natural-round-1-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-1-2.jpg"
+        "src": "assets/products/natural/round/natural-round-1-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-1-3.jpg"
+        "src": "assets/products/natural/round/natural-round-1-3.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/round/natural-round-1-video.mp4"
+        "src": "assets/products/natural/round/natural-round-1-1-video.mp4"
+      }
+      {
+        "type": "video",
+        "src": "assets/products/natural/round/natural-round-1-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-1-1.jpg"
+    "cover": "assets/products/natural/round/natural-round-1-1.png"
   },
   {
     "id": "natural-round-2",
@@ -80,35 +84,39 @@ const CATALOGUE = [
     "categoryLabel": "Natural Diamonds",
     "shape": "Round",
     "shapeSlug": "round",
-    "carat": "0.93 ct",
+    "carat": "1.58 ct each",
     "cert": "IGI",
     "specs": {
-      "Colour": "F",
-      "Clarity": "VVS2",
-      "Cut": "Good",
+      "Colour": "F Non-Florescent",
+      "Clarity": "VVS1",
+      "Cut": "Excellent",
       "Origin": "Natural"
     },
-    "title": "Round \u00b7 0.93 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 0.93 carat stone is graded F colour with VVS2 clarity, independently certified by IGI. Reference HC-N-102 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "title": "Round \u00b7 1.58 ct",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. These 1.58 carat/ each stone is graded F colour Non-Florescent with VVS1 clarity, independently certified by IGI. Reference HC-N-102 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-2-1.jpg"
+        "src": "assets/products/natural/round/natural-round-2-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-2-2.jpg"
+        "src": "assets/products/natural/round/natural-round-2-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-2-3.jpg"
+        "src": "assets/products/natural/round/natural-round-2-3.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/round/natural-round-2-video.mp4"
+        "src": "assets/products/natural/round/natural-round-2-1-video.mp4"
+      }
+      {
+        "type": "video",
+        "src": "assets/products/natural/round/natural-round-2-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-2-1.jpg"
+    "cover": "assets/products/natural/round/natural-round-2-1.png"
   },
   {
     "id": "natural-round-3",
@@ -118,34 +126,34 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
-      "Colour": "G",
-      "Clarity": "VS1",
-      "Cut": "Excellent",
+      "Colour": "E Non-Florescent",
+      "Clarity": "VVS2",
+      "Cut": "Ideal",
       "Origin": "Natural"
     },
     "title": "Round \u00b7 1.12 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-N-103 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.12 carat stone is graded E Non-Florescent colour with VVS2 clarity, independently certified by IGI. Reference HC-N-103 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-3-1.jpg"
+        "src": "assets/products/natural/round/natural-round-3-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-3-2.jpg"
+        "src": "assets/products/natural/round/natural-round-3-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-3-3.jpg"
+        "src": "assets/products/natural/round/natural-round-3-3.png"
       },
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-3-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-3-1.jpg"
+    "cover": "assets/products/natural/round/natural-round-3-1.png"
   },
   {
     "id": "natural-round-4",
@@ -154,35 +162,35 @@ const CATALOGUE = [
     "categoryLabel": "Natural Diamonds",
     "shape": "Round",
     "shapeSlug": "round",
-    "carat": "1.31 ct",
+    "carat": "3.01 ct",
     "cert": "IGI",
     "specs": {
-      "Colour": "H",
-      "Clarity": "VS2",
-      "Cut": "Very Good",
+      "Colour": "E Non-Florescent",
+      "Clarity": "VVS2",
+      "Cut": "Excellent",
       "Origin": "Natural"
     },
-    "title": "Round \u00b7 1.31 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.31 carat stone is graded H colour with VS2 clarity, independently certified by IGI. Reference HC-N-104 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "title": "Round \u00b7 3.01 ct",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 3.01 carat stone is graded E colour Non-Florescent with VVS2 clarity, independently certified by IGI. Reference HC-N-104 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-4-1.jpg"
+        "src": "assets/products/natural/round/natural-round-4-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-4-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/round/natural-round-4-3.jpg"
+        "src": "assets/products/natural/round/natural-round-4-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/round/natural-round-4-video.mp4"
+        "src": "assets/products/natural/round/natural-round-4-1-video.mp4"
+      }
+      {
+        "type": "video",
+        "src": "assets/products/natural/round/natural-round-4-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-4-1.jpg"
+    "cover": "assets/products/natural/round/natural-round-4-1-video.mp4"
   },
   {
     "id": "natural-round-5",
@@ -191,35 +199,35 @@ const CATALOGUE = [
     "categoryLabel": "Natural Diamonds",
     "shape": "Round",
     "shapeSlug": "round",
-    "carat": "1.5 ct",
-    "cert": "GIA",
+    "carat": "3.03 ct",
+    "cert": "IGI",
     "specs": {
-      "Colour": "D",
-      "Clarity": "SI1",
-      "Cut": "Good",
+      "Colour": "E Non-Florescent",
+      "Clarity": "VVS2",
+      "Cut": "Ideal",
       "Origin": "Natural"
     },
-    "title": "Round \u00b7 1.5 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-N-105 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "title": "Round \u00b7 3.03 ct",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 3.03 carat stone is graded E Non-Florescent colour with VVS2 clarity, independently certified by IGI. Reference HC-N-105 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-5-1.jpg"
+        "src": "assets/products/natural/round/natural-round-5-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-5-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/round/natural-round-5-3.jpg"
+        "src": "assets/products/natural/round/natural-round-5-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/round/natural-round-5-video.mp4"
+        "src": "assets/products/natural/round/natural-round-5-1-video.mp4"
+      }
+      {
+        "type": "video",
+        "src": "assets/products/natural/round/natural-round-5-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-5-1.jpg"
+    "cover": "assets/products/natural/round/natural-round-5-1-video.mp4"
   },
   {
     "id": "natural-round-6",
@@ -232,31 +240,31 @@ const CATALOGUE = [
     "cert": "IGI",
     "specs": {
       "Colour": "E",
-      "Clarity": "IF",
+      "Clarity": "VS2",
       "Cut": "Excellent",
       "Origin": "Natural"
     },
     "title": "Round \u00b7 1.69 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.69 carat stone is graded E colour with IF clarity, independently certified by IGI. Reference HC-N-106 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.69 carat stone is graded E colour with VS2 clarity, independently certified by IGI. Reference HC-N-106 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-6-1.jpg"
+        "src": "assets/products/natural/round/natural-round-6-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-6-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/round/natural-round-6-3.jpg"
+        "src": "assets/products/natural/round/natural-round-6-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/round/natural-round-6-video.mp4"
+        "src": "assets/products/natural/round/natural-round-6-1-video.mp4"
+      }
+      {
+        "type": "video",
+        "src": "assets/products/natural/round/natural-round-6-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-6-1.jpg"
+    "cover": "assets/products/natural/round/natural-round-6-1-video.mp4"
   },
   {
     "id": "natural-round-7",
@@ -266,34 +274,34 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
-      "Clarity": "VVS1",
-      "Cut": "Very Good",
+      "Clarity": "VVS2",
+      "Cut": "Ideal",
       "Origin": "Natural"
     },
     "title": "Round \u00b7 1.88 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-N-107 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.88 carat stone is graded F colour with VVS2 clarity, independently certified by IGI. Reference HC-N-107 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-7-1.jpg"
+        "src": "assets/products/natural/round/natural-round-7-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-7-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/round/natural-round-7-3.jpg"
+        "src": "assets/products/natural/round/natural-round-7-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/round/natural-round-7-video.mp4"
+        "src": "assets/products/natural/round/natural-round-7-1-video.mp4"
+      }
+      {
+        "type": "video",
+        "src": "assets/products/natural/round/natural-round-7-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-7-1.jpg"
+    "cover": "assets/products/natural/round/natural-round-7-1-video.mp4"
   },
   {
     "id": "natural-round-8",
@@ -305,32 +313,32 @@ const CATALOGUE = [
     "carat": "2.07 ct",
     "cert": "IGI",
     "specs": {
-      "Colour": "G",
+      "Colour": "E",
       "Clarity": "VVS2",
-      "Cut": "Good",
+      "Cut": "Excellent",
       "Origin": "Natural"
     },
     "title": "Round \u00b7 2.07 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 2.07 carat stone is graded G colour with VVS2 clarity, independently certified by IGI. Reference HC-N-108 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 2.07 carat stone is graded E colour with VVS2 clarity, independently certified by IGI. Reference HC-N-108 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-8-1.jpg"
+        "src": "assets/products/natural/round/natural-round-8-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/round/natural-round-8-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/round/natural-round-8-3.jpg"
+        "src": "assets/products/natural/round/natural-round-8-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/round/natural-round-8-video.mp4"
+        "src": "assets/products/natural/round/natural-round-8-1-video.mp4"
+      }
+      {
+        "type": "video",
+        "src": "assets/products/natural/round/natural-round-8-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-8-1.jpg"
+    "cover": "assets/products/natural/round/natural-round-8-1-video.mp4"
   },
   {
     "id": "natural-princess-1",
