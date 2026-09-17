@@ -69,7 +69,7 @@ const CATALOGUE = [
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-1-1-video.mp4"
-      }
+      },
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-1-2-video.mp4"
@@ -110,7 +110,7 @@ const CATALOGUE = [
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-2-1-video.mp4"
-      }
+      },
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-2-2-video.mp4"
@@ -184,13 +184,13 @@ const CATALOGUE = [
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-4-1-video.mp4"
-      }
+      },
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-4-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-4-1-video.mp4"
+    "cover": "assets/products/natural/round/natural-round-4-1.png"
   },
   {
     "id": "natural-round-5",
@@ -221,13 +221,13 @@ const CATALOGUE = [
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-5-1-video.mp4"
-      }
+      },
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-5-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-5-1-video.mp4"
+    "cover": "assets/products/natural/round/natural-round-5-1.png"
   },
   {
     "id": "natural-round-6",
@@ -258,13 +258,13 @@ const CATALOGUE = [
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-6-1-video.mp4"
-      }
+      },
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-6-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-6-1-video.mp4"
+    "cover": "assets/products/natural/round/natural-round-6-1.png"
   },
   {
     "id": "natural-round-7",
@@ -295,13 +295,13 @@ const CATALOGUE = [
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-7-1-video.mp4"
-      }
+      },
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-7-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-7-1-video.mp4"
+    "cover": "assets/products/natural/round/natural-round-7-1.png"
   },
   {
     "id": "natural-round-8",
@@ -332,13 +332,13 @@ const CATALOGUE = [
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-8-1-video.mp4"
-      }
+      },
       {
         "type": "video",
         "src": "assets/products/natural/round/natural-round-8-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/round/natural-round-8-1-video.mp4"
+    "cover": "assets/products/natural/round/natural-round-8-1.png"
   },
   {
     "id": "natural-princess-1",
