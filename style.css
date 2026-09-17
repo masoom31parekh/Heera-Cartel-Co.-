@@ -229,7 +229,7 @@ section.alt{ background:var(--bg-alt); }
 .shape-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
 .shape-card{ text-align:left; cursor:pointer; }
 .shape-frame{ position:relative; aspect-ratio:1/1; overflow:hidden; background:var(--card); border:1px solid var(--line); }
-.shape-frame img{ width:100%; height:100%; object-fit:cover; filter:grayscale(1) contrast(1.05); opacity:.8; transition:.5s; }
+.shape-frame img{ width:100%; height:100%; object-fit:cover; filter:contrast(1.05); opacity:1; transition:.5s; }
 .shape-card:hover .shape-frame img{ opacity:1; transform:scale(1.06); }
 .shape-frame .tag{ position:absolute; bottom:10px; left:12px; font-family:var(--serif); font-size:1.3rem; font-weight:400; }
 .shape-frame::after{ content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(0,0,0,.65), transparent 60%); }
@@ -242,11 +242,11 @@ section.alt{ background:var(--bg-alt); }
 .stone-card.linked{ cursor:pointer; transition:background .3s; }
 .stone-card.linked:hover{ background:var(--card); }
 .stone-frame{ position:relative; aspect-ratio:1/1; overflow:hidden; background:var(--card); }
-.stone-frame img{ width:100%; height:100%; object-fit:cover; filter:grayscale(1) contrast(1.05); opacity:.85; transition:.5s; }
+.stone-frame img{ width:100%; height:100%; object-fit:cover; filter:contrast(1.05); opacity:1; transition:.5s; }
 .stone-card:hover .stone-frame img{ opacity:1; transform:scale(1.05); }
 .media-item{ display:none; width:100%; height:100%; }
 .media-item.active{ display:block; }
-.media-item img, .media-item video{ width:100%; height:100%; object-fit:cover; filter:grayscale(1) contrast(1.05); opacity:.85; }
+.media-item img, .media-item video{ width:100%; height:100%; object-fit:cover; filter:contrast(1.05); opacity:1; }
 .media-nav{ position:absolute; top:50%; transform:translateY(-50%); background:rgba(10,10,10,0.55); color:var(--ink); border:none; width:26px; height:26px; cursor:pointer; font-size:1rem; line-height:1; z-index:3; }
 .media-nav.prev{ left:8px; } .media-nav.next{ right:8px; }
 .media-dots{ position:absolute; bottom:10px; left:0; right:0; display:flex; justify-content:center; gap:6px; z-index:3; }
@@ -294,7 +294,7 @@ section.alt{ background:var(--bg-alt); }
 .why-grid h2{ font-family:var(--serif); font-size:clamp(3rem,5vw,5rem); font-weight:400; line-height:0.92; letter-spacing:-0.025em; max-width:16ch; }
 .why-grid p{ margin-top:22px; color:var(--ink-dim); font-family:var(--sans); font-size:0.94rem; font-weight:300; line-height:1.9; max-width:52ch; }
 .why-photo{ position:relative; aspect-ratio:4/5; overflow:hidden; border:1px solid var(--line); }
-.why-photo img{ width:100%; height:100%; object-fit:cover; filter:grayscale(1); }
+.why-photo img{ width:100%; height:100%; object-fit:cover; }
 .why-photo::after{ content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(0,0,0,.6), transparent 55%); }
 .why-photo span{ position:absolute; bottom:22px; left:22px; right:22px; font-family:var(--serif); font-style:italic; font-size:1.65rem; font-weight:400; }
 @media (max-width:780px){ .why-grid{ grid-template-columns:1fr; } }
@@ -382,11 +382,11 @@ footer.plain .footer-bottom{ padding-top:0; }
 .product-grid{ display:grid; grid-template-columns:1.1fr 0.9fr; gap:70px; align-items:start; }
 .product-gallery{ position:sticky; top:120px; }
 .gallery-main{ position:relative; aspect-ratio:1/1; overflow:hidden; background:var(--card); border:1px solid var(--line); }
-.gallery-main .media-item img, .gallery-main .media-item video{ filter:grayscale(1) contrast(1.05); opacity:.92; }
+.gallery-main .media-item img, .gallery-main .media-item video{ filter:contrast(1.05); opacity:1; }
 .gallery-thumbs{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:12px; }
 .gallery-thumb{ aspect-ratio:1/1; overflow:hidden; background:var(--card); border:1px solid var(--line); cursor:pointer; opacity:.55; transition:.3s; }
 .gallery-thumb.active, .gallery-thumb:hover{ opacity:1; border-color:var(--line-strong); }
-.gallery-thumb img, .gallery-thumb video{ width:100%; height:100%; object-fit:cover; filter:grayscale(1); }
+.gallery-thumb img, .gallery-thumb video{ width:100%; height:100%; object-fit:cover; }
 .gallery-thumb .play-badge{ position:absolute; }
 
 .product-info .ref{ font-size:0.66rem; letter-spacing:0.14em; color:var(--grey); text-transform:uppercase; }
