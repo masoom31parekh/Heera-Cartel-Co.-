@@ -36,28 +36,9 @@
     } catch (e) {}
   })();
 </script>
-  <link rel="stylesheet" href="intro.css">
-<script>
-  // decides whether the intro plays (once per browser session)
-  (function(){
-    try {
-      if (!sessionStorage.getItem('hc_intro_seen'))
-        document.documentElement.classList.add('intro-on');
-    } catch (e) {
-      document.documentElement.classList.add('intro-on');
-    }
-  })();
-</script>
 </head>
-<script src="intro.js"></script>
-  <body>
-<div class="intro" id="introSplash" role="dialog" aria-label="Heera Cartel Co. intro">
-  <video class="intro-video" id="introVideo" playsinline muted preload="auto"></video>
-  <div class="intro-controls">
-    <button class="intro-btn" id="introSkip" type="button">Skip</button>
-    <button class="intro-btn" id="introSound" type="button" aria-pressed="false">Sound on</button>
-  </div>
-</div>
+<body>
+
 <!-- HEERA CARTEL INTRO (Shri Yantra) -->
 <div id="introSplash" class="intro" role="dialog" aria-modal="true" aria-label="Heera Cartel Co. introduction">
   <video id="introVideo" class="intro-video" muted playsinline preload="auto"></video>
@@ -198,7 +179,7 @@
           <a href="#contact" class="btn-line" style="display:inline-block; margin-top:26px;">Ask about a stone →</a>
         </div>
 
-        <!-- Shape grid: each shape now links to its own shape.html page (8 products) -->
+        <!-- Shape grid: each shape links to its own shape.html page -->
         <div class="shape-grid" id="shapeGrid"></div>
       </div>
     </div>
@@ -402,7 +383,7 @@
 <script src="site-common.js"></script>
 <script src="intro.js"></script>
 <script>
-  // Shape thumbnail images reused from the existing asset set — one representative photo per shape.
+  // Shape thumbnail images — one representative photo per shape.
   const shapeThumb = {
     round:"assets/round.jpg", princess:"assets/princess.jpg", emerald:"assets/emerald.jpg",
     oval:"assets/oval.jpg", pear:"assets/pear.jpg", radiant:"assets/radiant.jpg", heart:"assets/heart.jpg"
@@ -433,7 +414,7 @@
   }
   renderShapeGrid(activeCategory);
 
-  // Catalogue tabs — switches the intro copy panel AND the shape grid links (?cat=)
+  // Catalogue tabs — switches the copy panel AND the shape grid links (?cat=)
   document.querySelectorAll('.cat-tab').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.cat-tab').forEach(b => b.classList.remove('active'));
