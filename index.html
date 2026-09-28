@@ -36,9 +36,28 @@
     } catch (e) {}
   })();
 </script>
+  <link rel="stylesheet" href="intro.css">
+<script>
+  // decides whether the intro plays (once per browser session)
+  (function(){
+    try {
+      if (!sessionStorage.getItem('hc_intro_seen'))
+        document.documentElement.classList.add('intro-on');
+    } catch (e) {
+      document.documentElement.classList.add('intro-on');
+    }
+  })();
+</script>
 </head>
-<body>
-
+<script src="intro.js"></script>
+  <body>
+<div class="intro" id="introSplash" role="dialog" aria-label="Heera Cartel Co. intro">
+  <video class="intro-video" id="introVideo" playsinline muted preload="auto"></video>
+  <div class="intro-controls">
+    <button class="intro-btn" id="introSkip" type="button">Skip</button>
+    <button class="intro-btn" id="introSound" type="button" aria-pressed="false">Sound on</button>
+  </div>
+</div>
 <!-- HEERA CARTEL INTRO (Shri Yantra) -->
 <div id="introSplash" class="intro" role="dialog" aria-modal="true" aria-label="Heera Cartel Co. introduction">
   <video id="introVideo" class="intro-video" muted playsinline preload="auto"></video>
