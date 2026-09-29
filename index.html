@@ -16,37 +16,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=Montserrat+Alternates:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="intro.css">
-<script>
-  /* Heera Cartel intro: play once per browser session.
-     Skipped for: returning visitors this session, reduced-motion users, slow / data-saver connections.
-     Testing: add ?intro=1 to the URL to force it, ?intro=0 to suppress it. */
-  (function () {
-    var d = document.documentElement;
-    try {
-      var q = location.search, force = /[?&]intro=1/.test(q), off = /[?&]intro=0/.test(q);
-      var seen = sessionStorage.getItem('hc_intro_seen');
-      var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-      var c = navigator.connection || {};
-      var slow = c.saveData || /2g/.test(c.effectiveType || '');
-      if (force || (!off && !seen && !reduce && !slow)) {
-        d.classList.add('hc-intro-on');
-        setTimeout(function () { d.classList.remove('hc-intro-on'); }, 20000);   // failsafe: never trap a visitor
-      }
-    } catch (e) {}
-  })();
-</script>
 </head>
 <body>
-
-<!-- HEERA CARTEL INTRO (Shri Yantra) -->
-<div id="introSplash" class="hc-intro" role="dialog" aria-modal="true" aria-label="Heera Cartel Co. introduction">
-  <video id="introVideo" class="hc-intro-video" muted playsinline preload="auto"></video>
-  <div class="hc-intro-controls">
-    <button type="button" id="introSound" class="hc-intro-btn" aria-pressed="false">Sound on</button>
-    <button type="button" id="introSkip" class="hc-intro-btn">Skip intro</button>
-  </div>
-</div>
 
 <header id="siteHeader" class="transparent">
   <div class="wrap nav-row">
@@ -374,14 +345,12 @@
     <div class="footer-bottom">
       <span>Surat · Mumbai · India · Worldwide</span>
       <span>Unlock the true value of diamonds</span>
-      <a href="#" class="replay-intro" data-replay-intro>Replay intro</a>
     </div>
   </div>
 </footer>
 
 <script src="catalogue-data.js"></script>
 <script src="site-common.js"></script>
-<script src="intro.js"></script>
 <script>
   // Shape thumbnail images — one representative photo per shape.
   const shapeThumb = {
