@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R6YZ6HX8RH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R6YZ6HX8RH');
+</script>
+<title>Full Diamond Catalogue — Heera Cartel Co.</title>
+<meta name="description" id="pageDesc" content="Filter Heera Cartel Co.'s wholesale diamonds by type, shape, carat, colour, clarity and certification." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="tools.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap nav-row">
+    <a href="index.html#catalogue" class="back-link" id="backLink">← Back to catalogue</a>
+    <a href="index.html" class="brand">
+      <span class="brand-text">Heera Cartel Co.<small>Diamond Wholesalers</small></span>
+    </a>
+    <a href="https://wa.me/919727857303?text=Hi%20Heera%20Cartel%20Co.%2C%20I%27d%20like%20to%20know%20more%20about%20your%20diamonds."
+       class="nav-cta" target="_blank" rel="noopener">Talk to Us</a>
+  </div>
+</header>
+
+<div id="menuOverlay"></div>
+<nav id="sideMenu">
+  <button class="menu-close" id="menuClose" aria-label="Close menu">×</button>
+  <div class="side-menu-inner">
+    <span class="side-menu-label">Navigate</span>
+    <a href="index.html#about" class="side-link"><span>01</span>About</a>
+    <a href="index.html#catalogue" class="side-link"><span>02</span>Catalogue</a>
+    <a href="index.html#quote" class="side-link"><span>03</span>Get a Quote</a>
+    <a href="index.html#education" class="side-link"><span>04</span>Diamond Intelligence</a>
+    <a href="index.html#pricing" class="side-link"><span>05</span>Rate Guide</a>
+    <a href="index.html#certification" class="side-link"><span>06</span>Certificates</a>
+    <a href="index.html#contact" class="side-link"><span>07</span>Contact</a>
+    <div class="side-menu-footer">
+      <a href="https://wa.me/919727857303?text=Hi%20Heera%20Cartel%20Co.%2C%20I%27d%20like%20to%20know%20more%20about%20your%20diamonds." target="_blank" rel="noopener">Talk to Us</a>
+      <a href="https://www.instagram.com/heeracartel.co" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="mailto:information@heeracartel.com">Email</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="intro">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span class="current">Full catalogue</span></p>
+      <span class="section-label">Every stone, one place</span>
+      <h1>Find the stone<br>you need.</h1>
+      <p>Filter by type, shape, carat, colour, clarity and certification. Rates are shared on request.</p>
+    </div>
+  </section>
+
+  <div class="cat-tools" id="catTools">
+    <div class="wrap">
+      <div class="row"><div class="hc-chips" id="fType"></div><div class="hc-chips" id="fSub"></div></div>
+      <div class="row">
+        <label class="hc-field">Shape<select id="fShape"></select></label>
+        <label class="hc-field">Carat<select id="fCarat"></select></label>
+        <label class="hc-field">Colour<select id="fColour"></select></label>
+        <label class="hc-field">Clarity<select id="fClarity"></select></label>
+        <label class="hc-field">Certification<select id="fCert"></select></label>
+        <label class="hc-field narrow">Sort by<select id="fSort">
+          <option value="ref">Reference</option><option value="ct-asc">Carat: low to high</option><option value="ct-desc">Carat: high to low</option></select></label>
+      </div>
+    </div>
+  </div>
+
+  <section id="stones" style="padding-top:0; border-bottom:none;">
+    <div class="wrap">
+      <div class="cat-summary"><p class="count" id="fCount" aria-live="polite"></p><div id="fPills" style="display:contents"></div><button class="hc-clear" id="fClear" type="button" hidden>Clear all</button></div>
+      <div class="stone-grid" id="catGrid"></div>
+      <div class="cat-empty" id="catEmpty" hidden><h3>No stones match these filters.</h3><p>Relax one filter, or tell us what you need and we will source it.</p></div>
+      <div class="cat-more"><button class="hc-btn ghost" id="fMore" type="button" hidden>Show more</button></div>
+      <div class="cat-quote"><p id="fQuoteText">Can't find it? Tell us the spec.</p><a class="hc-btn" id="fQuote" target="_blank" rel="noopener">Ask for a quote on WhatsApp</a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="plain">
+  <div class="wrap footer-bottom">
+    <span>Surat · Mumbai · India · Worldwide</span>
+    <span>Unlock the true value of diamonds</span>
+  </div>
+</footer>
+
+<script src="catalogue-data.js"></script>
+<script src="site-common.js"></script>
+<script src="hc-filter.js"></script>
+<script src="catalogue.js"></script>
+</body>
+</html>
