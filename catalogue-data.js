@@ -360,22 +360,26 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-1-1.jpg"
+        "src": "assets/products/natural/princess/natural-princess-1-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-1-2.jpg"
+        "src": "assets/products/natural/princess/natural-princess-1-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-1-3.jpg"
+        "src": "assets/products/natural/princess/natural-princess-1-3.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/princess/natural-princess-1-video.mp4"
+        "src": "assets/products/natural/princess/natural-princess-1-1-video.mp4"
+      },
+      {
+        "type": "video",
+        "src": "assets/products/natural/princess/natural-princess-1-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/princess/natural-princess-1-1.jpg"
+    "cover": "assets/products/natural/princess/natural-princess-1-1.png"
   },
   {
     "id": "natural-princess-2",
@@ -397,22 +401,26 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-2-1.jpg"
+        "src": "assets/products/natural/princess/natural-princess-2-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-2-2.jpg"
+        "src": "assets/products/natural/princess/natural-princess-2-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-2-3.jpg"
+        "src": "assets/products/natural/princess/natural-princess-2-3.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/princess/natural-princess-2-video.mp4"
+        "src": "assets/products/natural/princess/natural-princess-2-1-video.mp4"
+      },
+      {
+        "type": "video",
+        "src": "assets/products/natural/princess/natural-princess-2-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/princess/natural-princess-2-1.jpg"
+    "cover": "assets/products/natural/princess/natural-princess-2-1.png"
   },
   {
     "id": "natural-princess-3",
@@ -434,22 +442,22 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-3-1.jpg"
+        "src": "assets/products/natural/princess/natural-princess-3-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-3-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-3-3.jpg"
+        "src": "assets/products/natural/princess/natural-princess-3-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/princess/natural-princess-3-video.mp4"
+        "src": "assets/products/natural/princess/natural-princess-3-1-video.mp4"
+      },
+      {
+        "type": "video",
+        "src": "assets/products/natural/princess/natural-princess-3-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/princess/natural-princess-3-1.jpg"
+    "cover": "assets/products/natural/princess/natural-princess-3-1.png"
   },
   {
     "id": "natural-princess-4",
@@ -471,22 +479,26 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-4-1.jpg"
+        "src": "assets/products/natural/princess/natural-princess-4-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-4-2.jpg"
+        "src": "assets/products/natural/princess/natural-princess-4-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-4-3.jpg"
+        "src": "assets/products/natural/princess/natural-princess-4-3.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/products/natural/princess/natural-princess-4-4.png"
       },
       {
         "type": "video",
         "src": "assets/products/natural/princess/natural-princess-4-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/princess/natural-princess-4-1.jpg"
+    "cover": "assets/products/natural/princess/natural-princess-4-1.png"
   },
   {
     "id": "natural-princess-5",
@@ -508,22 +520,26 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-5-1.jpg"
+        "src": "assets/products/natural/princess/natural-princess-5-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-5-2.jpg"
+        "src": "assets/products/natural/princess/natural-princess-5-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-5-3.jpg"
+        "src": "assets/products/natural/princess/natural-princess-5-3.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/products/natural/princess/natural-princess-5-4.png"
       },
       {
         "type": "video",
         "src": "assets/products/natural/princess/natural-princess-5-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/princess/natural-princess-5-1.jpg"
+    "cover": "assets/products/natural/princess/natural-princess-5-1.png"
   },
   {
     "id": "natural-princess-6",
@@ -545,22 +561,26 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-6-1.jpg"
+        "src": "assets/products/natural/princess/natural-princess-6-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-6-2.jpg"
+        "src": "assets/products/natural/princess/natural-princess-6-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-6-3.jpg"
+        "src": "assets/products/natural/princess/natural-princess-6-3.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/products/natural/princess/natural-princess-6-4.png"
       },
       {
         "type": "video",
         "src": "assets/products/natural/princess/natural-princess-6-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/princess/natural-princess-6-1.jpg"
+    "cover": "assets/products/natural/princess/natural-princess-6-1.png"
   },
   {
     "id": "natural-princess-7",
@@ -582,22 +602,22 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-7-1.jpg"
+        "src": "assets/products/natural/princess/natural-princess-7-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-7-2.jpg"
+        "src": "assets/products/natural/princess/natural-princess-7-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-7-3.jpg"
+        "src": "assets/products/natural/princess/natural-princess-7-3.png"
       },
       {
         "type": "video",
         "src": "assets/products/natural/princess/natural-princess-7-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/princess/natural-princess-7-1.jpg"
+    "cover": "assets/products/natural/princess/natural-princess-7-1.png"
   },
   {
     "id": "natural-princess-8",
@@ -619,22 +639,26 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-8-1.jpg"
+        "src": "assets/products/natural/princess/natural-princess-8-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-8-2.jpg"
+        "src": "assets/products/natural/princess/natural-princess-8-2.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/princess/natural-princess-8-3.jpg"
+        "src": "assets/products/natural/princess/natural-princess-8-3.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/products/natural/princess/natural-princess-8-4.png"
       },
       {
         "type": "video",
         "src": "assets/products/natural/princess/natural-princess-8-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/princess/natural-princess-8-1.jpg"
+    "cover": "assets/products/natural/princess/natural-princess-8-1.png"
   },
   {
     "id": "natural-emerald-1",
