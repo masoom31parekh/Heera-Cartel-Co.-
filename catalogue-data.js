@@ -348,7 +348,7 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -356,7 +356,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Princess \u00b7 0.74 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-N-109 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-N-109 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -430,7 +430,7 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -438,7 +438,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Princess \u00b7 1.12 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-N-111 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-N-111 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -508,7 +508,7 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -516,7 +516,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Princess \u00b7 1.5 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-N-113 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-N-113 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -590,7 +590,7 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -598,7 +598,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Princess \u00b7 1.88 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-N-115 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-N-115 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -668,7 +668,7 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -676,7 +676,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Emerald \u00b7 0.74 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-N-117 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-N-117 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -742,7 +742,7 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -750,7 +750,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Emerald \u00b7 1.12 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-N-119 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-N-119 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -816,7 +816,7 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -824,7 +824,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Emerald \u00b7 1.5 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-N-121 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-N-121 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -886,7 +886,7 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -894,7 +894,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Emerald \u00b7 1.88 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-N-123 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-N-123 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -956,7 +956,7 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -964,7 +964,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Oval \u00b7 0.74 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-N-125 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-N-125 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1030,7 +1030,7 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -1038,7 +1038,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Oval \u00b7 1.12 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-N-127 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-N-127 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1104,7 +1104,7 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -1112,7 +1112,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Oval \u00b7 1.5 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-N-129 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-N-129 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1178,7 +1178,7 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -1186,7 +1186,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Oval \u00b7 1.88 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-N-131 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-N-131 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1252,7 +1252,7 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -1260,7 +1260,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Pear \u00b7 0.74 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-N-133 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-N-133 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1326,7 +1326,7 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -1334,7 +1334,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Pear \u00b7 1.12 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-N-135 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-N-135 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1400,7 +1400,7 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -1408,7 +1408,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Pear \u00b7 1.5 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-N-137 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-N-137 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1474,7 +1474,7 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -1482,7 +1482,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Pear \u00b7 1.88 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-N-139 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-N-139 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1548,7 +1548,7 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -1556,7 +1556,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Radiant \u00b7 0.74 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-N-141 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-N-141 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1622,7 +1622,7 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -1630,7 +1630,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Radiant \u00b7 1.12 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-N-143 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-N-143 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1696,7 +1696,7 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -1704,7 +1704,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Radiant \u00b7 1.5 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-N-145 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-N-145 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1770,7 +1770,7 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -1778,7 +1778,7 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Radiant \u00b7 1.88 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-N-147 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-N-147 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -1844,7 +1844,7 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -1852,26 +1852,26 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Heart \u00b7 0.74 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-N-149 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-N-149 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-1-1.jpg"
+        "src": "assets/products/natural/heart/natural-heart-1-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-1-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-1-3.jpg"
+        "src": "assets/products/natural/heart/natural-heart-1-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/heart/natural-heart-1-video.mp4"
+        "src": "assets/products/natural/heart/natural-heart-1-1-video.mp4"
+      }, 
+      {
+        "type": "video",
+        "src": "assets/products/natural/heart/natural-heart-1-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/heart/natural-heart-1-1.jpg"
+    "cover": "assets/products/natural/heart/natural-heart-1-1.png"
   },
   {
     "id": "natural-heart-2",
@@ -1893,22 +1893,22 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-2-1.jpg"
+        "src": "assets/products/natural/heart/natural-heart-2-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-2-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-2-3.jpg"
+        "src": "assets/products/natural/heart/natural-heart-2-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/heart/natural-heart-2-video.mp4"
+        "src": "assets/products/natural/heart/natural-heart-2-1-video.mp4"
+      },
+      {
+        "type": "video",
+        "src": "assets/products/natural/heart/natural-heart-2-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/heart/natural-heart-2-1.jpg"
+    "cover": "assets/products/natural/heart/natural-heart-2-1.png"
   },
   {
     "id": "natural-heart-3",
@@ -1918,7 +1918,7 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -1926,26 +1926,26 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Heart \u00b7 1.12 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-N-151 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-N-151 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-3-1.jpg"
+        "src": "assets/products/natural/heart/natural-heart-3-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-3-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-3-3.jpg"
+        "src": "assets/products/natural/heart/natural-heart-3-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/heart/natural-heart-3-video.mp4"
+        "src": "assets/products/natural/heart/natural-heart-3-1-video.mp4"
+      },
+      {
+        "type": "video",
+        "src": "assets/products/natural/heart/natural-heart-3-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/heart/natural-heart-3-1.jpg"
+    "cover": "assets/products/natural/heart/natural-heart-3-1.png"
   },
   {
     "id": "natural-heart-4",
@@ -1967,22 +1967,22 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-4-1.jpg"
+        "src": "assets/products/natural/heart/natural-heart-4-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-4-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-4-3.jpg"
+        "src": "assets/products/natural/heart/natural-heart-4-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/heart/natural-heart-4-video.mp4"
+        "src": "assets/products/natural/heart/natural-heart-4-1-video.mp4"
+      }, 
+      {
+        "type": "video",
+        "src": "assets/products/natural/heart/natural-heart-4-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/heart/natural-heart-4-1.jpg"
+    "cover": "assets/products/natural/heart/natural-heart-4-1.png"
   },
   {
     "id": "natural-heart-5",
@@ -1992,7 +1992,7 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -2000,26 +2000,26 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Heart \u00b7 1.5 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-N-153 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-N-153 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-5-1.jpg"
+        "src": "assets/products/natural/heart/natural-heart-5-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-5-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-5-3.jpg"
+        "src": "assets/products/natural/heart/natural-heart-5-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/heart/natural-heart-5-video.mp4"
+        "src": "assets/products/natural/heart/natural-heart-5-1-video.mp4"
+      },
+      {
+        "type": "video",
+        "src": "assets/products/natural/heart/natural-heart-5-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/heart/natural-heart-5-1.jpg"
+    "cover": "assets/products/natural/heart/natural-heart-5-1.png"
   },
   {
     "id": "natural-heart-6",
@@ -2041,22 +2041,22 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-6-1.jpg"
+        "src": "assets/products/natural/heart/natural-heart-6-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-6-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-6-3.jpg"
+        "src": "assets/products/natural/heart/natural-heart-6-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/heart/natural-heart-6-video.mp4"
+        "src": "assets/products/natural/heart/natural-heart-6-1-video.mp4"
+      },
+       {
+        "type": "video",
+        "src": "assets/products/natural/heart/natural-heart-6-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/heart/natural-heart-6-1.jpg"
+    "cover": "assets/products/natural/heart/natural-heart-6-1.png"
   },
   {
     "id": "natural-heart-7",
@@ -2066,7 +2066,7 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -2074,26 +2074,26 @@ const CATALOGUE = [
       "Origin": "Natural"
     },
     "title": "Heart \u00b7 1.88 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-N-155 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-N-155 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-7-1.jpg"
+        "src": "assets/products/natural/heart/natural-heart-7-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-7-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-7-3.jpg"
+        "src": "assets/products/natural/heart/natural-heart-7-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/heart/natural-heart-7-video.mp4"
+        "src": "assets/products/natural/heart/natural-heart-7-1-video.mp4"
+      },
+      {
+        "type": "video",
+        "src": "assets/products/natural/heart/natural-heart-7-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/heart/natural-heart-7-1.jpg"
+    "cover": "assets/products/natural/heart/natural-heart-7-1.png"
   },
   {
     "id": "natural-heart-8",
@@ -2115,22 +2115,22 @@ const CATALOGUE = [
     "media": [
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-8-1.jpg"
+        "src": "assets/products/natural/heart/natural-heart-8-1.png"
       },
       {
         "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-8-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/heart/natural-heart-8-3.jpg"
+        "src": "assets/products/natural/heart/natural-heart-8-2.png"
       },
       {
         "type": "video",
-        "src": "assets/products/natural/heart/natural-heart-8-video.mp4"
+        "src": "assets/products/natural/heart/natural-heart-8-1-video.mp4"
+      },
+      {
+        "type": "video",
+        "src": "assets/products/natural/heart/natural-heart-8-2-video.mp4"
       }
     ],
-    "cover": "assets/products/natural/heart/natural-heart-8-1.jpg"
+    "cover": "assets/products/natural/heart/natural-heart-8-1.png"
   },
   {
     "id": "lab-round-1",
@@ -2140,7 +2140,7 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -2148,7 +2148,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Round \u00b7 0.74 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-L-157 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-L-157 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2214,7 +2214,7 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -2222,7 +2222,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Round \u00b7 1.12 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-L-159 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-L-159 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2288,7 +2288,7 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -2296,7 +2296,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Round \u00b7 1.5 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-L-161 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-L-161 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2362,7 +2362,7 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -2370,7 +2370,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Round \u00b7 1.88 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-L-163 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-L-163 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2436,7 +2436,7 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -2444,7 +2444,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Princess \u00b7 0.74 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-L-165 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-L-165 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2510,7 +2510,7 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -2518,7 +2518,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Princess \u00b7 1.12 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-L-167 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-L-167 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2584,7 +2584,7 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -2592,7 +2592,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Princess \u00b7 1.5 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-L-169 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-L-169 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2658,7 +2658,7 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -2666,7 +2666,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Princess \u00b7 1.88 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-L-171 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-L-171 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2732,7 +2732,7 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -2740,7 +2740,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Emerald \u00b7 0.74 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-L-173 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-L-173 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2806,7 +2806,7 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -2814,7 +2814,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Emerald \u00b7 1.12 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-L-175 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-L-175 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2880,7 +2880,7 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -2888,7 +2888,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Emerald \u00b7 1.5 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-L-177 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-L-177 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -2954,7 +2954,7 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -2962,7 +2962,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Emerald \u00b7 1.88 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-L-179 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-L-179 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3028,7 +3028,7 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -3036,7 +3036,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Oval \u00b7 0.74 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-L-181 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-L-181 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3102,7 +3102,7 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -3110,7 +3110,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Oval \u00b7 1.12 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-L-183 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-L-183 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3176,7 +3176,7 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -3184,7 +3184,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Oval \u00b7 1.5 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-L-185 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-L-185 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3250,7 +3250,7 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -3258,7 +3258,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Oval \u00b7 1.88 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-L-187 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-L-187 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3324,7 +3324,7 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -3332,7 +3332,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Pear \u00b7 0.74 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-L-189 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-L-189 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3398,7 +3398,7 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -3406,7 +3406,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Pear \u00b7 1.12 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-L-191 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-L-191 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3472,7 +3472,7 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -3480,7 +3480,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Pear \u00b7 1.5 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-L-193 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-L-193 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3546,7 +3546,7 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -3554,7 +3554,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Pear \u00b7 1.88 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-L-195 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-L-195 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3620,7 +3620,7 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -3628,7 +3628,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Radiant \u00b7 0.74 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-L-197 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-L-197 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3694,7 +3694,7 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -3702,7 +3702,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Radiant \u00b7 1.12 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-L-199 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-L-199 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3768,7 +3768,7 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -3776,7 +3776,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Radiant \u00b7 1.5 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-L-201 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-L-201 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3842,7 +3842,7 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -3850,7 +3850,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Radiant \u00b7 1.88 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-L-203 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-L-203 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3916,7 +3916,7 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "E",
       "Clarity": "VVS1",
@@ -3924,7 +3924,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Heart \u00b7 0.74 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by GIA. Reference HC-L-205 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 0.74 carat stone is graded E colour with VVS1 clarity, independently certified by IGI. Reference HC-L-205 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -3990,7 +3990,7 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "G",
       "Clarity": "VS1",
@@ -3998,7 +3998,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Heart \u00b7 1.12 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by GIA. Reference HC-L-207 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.12 carat stone is graded G colour with VS1 clarity, independently certified by IGI. Reference HC-L-207 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4064,7 +4064,7 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "D",
       "Clarity": "SI1",
@@ -4072,7 +4072,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Heart \u00b7 1.5 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by GIA. Reference HC-L-209 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.5 carat stone is graded D colour with SI1 clarity, independently certified by IGI. Reference HC-L-209 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4138,7 +4138,7 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "F",
       "Clarity": "VVS1",
@@ -4146,7 +4146,7 @@ const CATALOGUE = [
       "Origin": "Lab Grown"
     },
     "title": "Heart \u00b7 1.88 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by GIA. Reference HC-L-211 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.88 carat stone is graded F colour with VVS1 clarity, independently certified by IGI. Reference HC-L-211 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4212,14 +4212,14 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Intense Yellow",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Round \u00b7 0.74 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by GIA. Reference HC-C-213 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by IGI. Reference HC-C-213 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4284,14 +4284,14 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Pink",
       "Clarity": "VS1",
       "Origin": "Lab Grown"
     },
     "title": "Round \u00b7 1.12 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by GIA. Reference HC-C-215 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by IGI. Reference HC-C-215 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4356,14 +4356,14 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Champagne",
       "Clarity": "SI1",
       "Origin": "Lab Grown"
     },
     "title": "Round \u00b7 1.5 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by GIA. Reference HC-C-217 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by IGI. Reference HC-C-217 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4428,14 +4428,14 @@ const CATALOGUE = [
     "shape": "Round",
     "shapeSlug": "round",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Green",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Round \u00b7 1.88 ct",
-    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by GIA. Reference HC-C-219 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The round brilliant is engineered for maximum light return, prized for its brilliance, fire and forgiving geometry that hides small inclusions. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by IGI. Reference HC-C-219 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4500,14 +4500,14 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Intense Yellow",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Princess \u00b7 0.74 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by GIA. Reference HC-C-221 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by IGI. Reference HC-C-221 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4572,14 +4572,14 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Pink",
       "Clarity": "VS1",
       "Origin": "Lab Grown"
     },
     "title": "Princess \u00b7 1.12 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by GIA. Reference HC-C-223 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by IGI. Reference HC-C-223 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4644,14 +4644,14 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Champagne",
       "Clarity": "SI1",
       "Origin": "Lab Grown"
     },
     "title": "Princess \u00b7 1.5 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by GIA. Reference HC-C-225 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by IGI. Reference HC-C-225 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4716,14 +4716,14 @@ const CATALOGUE = [
     "shape": "Princess",
     "shapeSlug": "princess",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Green",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Princess \u00b7 1.88 ct",
-    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by GIA. Reference HC-C-227 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The princess cut brings crisp, architectural lines with sharp corners, offering strong brilliance in a modern square silhouette. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by IGI. Reference HC-C-227 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4788,14 +4788,14 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Intense Yellow",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Emerald \u00b7 0.74 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by GIA. Reference HC-C-229 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by IGI. Reference HC-C-229 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4860,14 +4860,14 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Pink",
       "Clarity": "VS1",
       "Origin": "Lab Grown"
     },
     "title": "Emerald \u00b7 1.12 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by GIA. Reference HC-C-231 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by IGI. Reference HC-C-231 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -4932,14 +4932,14 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Champagne",
       "Clarity": "SI1",
       "Origin": "Lab Grown"
     },
     "title": "Emerald \u00b7 1.5 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by GIA. Reference HC-C-233 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by IGI. Reference HC-C-233 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5004,14 +5004,14 @@ const CATALOGUE = [
     "shape": "Emerald",
     "shapeSlug": "emerald",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Green",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Emerald \u00b7 1.88 ct",
-    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by GIA. Reference HC-C-235 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The emerald cut's open step facets create a quiet hall-of-mirrors effect, favouring clarity and elegant proportion over maximum sparkle. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by IGI. Reference HC-C-235 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5076,14 +5076,14 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Intense Yellow",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Oval \u00b7 0.74 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by GIA. Reference HC-C-237 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by IGI. Reference HC-C-237 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5148,14 +5148,14 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Pink",
       "Clarity": "VS1",
       "Origin": "Lab Grown"
     },
     "title": "Oval \u00b7 1.12 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by GIA. Reference HC-C-239 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by IGI. Reference HC-C-239 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5220,14 +5220,14 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Champagne",
       "Clarity": "SI1",
       "Origin": "Lab Grown"
     },
     "title": "Oval \u00b7 1.5 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by GIA. Reference HC-C-241 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by IGI. Reference HC-C-241 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5292,14 +5292,14 @@ const CATALOGUE = [
     "shape": "Oval",
     "shapeSlug": "oval",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Green",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Oval \u00b7 1.88 ct",
-    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by GIA. Reference HC-C-243 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The oval cut elongates the finger with an elegant, continuous glow, offering a brilliance similar to round with a distinctive silhouette. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by IGI. Reference HC-C-243 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5364,14 +5364,14 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Intense Yellow",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Pear \u00b7 0.74 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by GIA. Reference HC-C-245 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by IGI. Reference HC-C-245 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5436,14 +5436,14 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Pink",
       "Clarity": "VS1",
       "Origin": "Lab Grown"
     },
     "title": "Pear \u00b7 1.12 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by GIA. Reference HC-C-247 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by IGI. Reference HC-C-247 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5508,14 +5508,14 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Champagne",
       "Clarity": "SI1",
       "Origin": "Lab Grown"
     },
     "title": "Pear \u00b7 1.5 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by GIA. Reference HC-C-249 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by IGI. Reference HC-C-249 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5580,14 +5580,14 @@ const CATALOGUE = [
     "shape": "Pear",
     "shapeSlug": "pear",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Green",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Pear \u00b7 1.88 ct",
-    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by GIA. Reference HC-C-251 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The pear shape combines the brilliance of a round cut with a graceful single point, a versatile shape for rings and pendants alike. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by IGI. Reference HC-C-251 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5652,14 +5652,14 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Intense Yellow",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Radiant \u00b7 0.74 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by GIA. Reference HC-C-253 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by IGI. Reference HC-C-253 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5724,14 +5724,14 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Pink",
       "Clarity": "VS1",
       "Origin": "Lab Grown"
     },
     "title": "Radiant \u00b7 1.12 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by GIA. Reference HC-C-255 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by IGI. Reference HC-C-255 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5796,14 +5796,14 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Champagne",
       "Clarity": "SI1",
       "Origin": "Lab Grown"
     },
     "title": "Radiant \u00b7 1.5 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by GIA. Reference HC-C-257 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by IGI. Reference HC-C-257 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5868,14 +5868,14 @@ const CATALOGUE = [
     "shape": "Radiant",
     "shapeSlug": "radiant",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Green",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Radiant \u00b7 1.88 ct",
-    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by GIA. Reference HC-C-259 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The radiant cut pairs faceted brilliance with bold trimmed corners, bridging the durability of princess cuts with round-like sparkle. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by IGI. Reference HC-C-259 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -5940,14 +5940,14 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "0.74 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Intense Yellow",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Heart \u00b7 0.74 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by GIA. Reference HC-C-261 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 0.74 carat stone is graded Fancy Intense Yellow colour with VVS1 clarity, independently certified by IGI. Reference HC-C-261 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -6012,14 +6012,14 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.12 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Pink",
       "Clarity": "VS1",
       "Origin": "Lab Grown"
     },
     "title": "Heart \u00b7 1.12 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by GIA. Reference HC-C-263 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.12 carat stone is graded Fancy Pink colour with VS1 clarity, independently certified by IGI. Reference HC-C-263 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -6084,14 +6084,14 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.5 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Champagne",
       "Clarity": "SI1",
       "Origin": "Lab Grown"
     },
     "title": "Heart \u00b7 1.5 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by GIA. Reference HC-C-265 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.5 carat stone is graded Champagne colour with SI1 clarity, independently certified by IGI. Reference HC-C-265 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
@@ -6156,14 +6156,14 @@ const CATALOGUE = [
     "shape": "Heart",
     "shapeSlug": "heart",
     "carat": "1.88 ct",
-    "cert": "GIA",
+    "cert": "IGI",
     "specs": {
       "Colour": "Fancy Green",
       "Clarity": "VVS1",
       "Origin": "Lab Grown"
     },
     "title": "Heart \u00b7 1.88 ct",
-    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by GIA. Reference HC-C-267 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
+    "writeup": "The heart cut is diamond cutting's most romantic and symbolic silhouette, requiring exceptional skill to achieve symmetry. This 1.88 carat stone is graded Fancy Green colour with VVS1 clarity, independently certified by IGI. Reference HC-C-267 is available for wholesale inquiry \u2014 ask us for full imaging, lab report copies and pricing.",
     "media": [
       {
         "type": "image",
