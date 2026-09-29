@@ -16,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&family=Montserrat+Alternates:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="tools.css">
 </head>
 <body>
 
@@ -37,10 +38,11 @@
     <span class="side-menu-label">Navigate</span>
     <a href="#about" class="side-link"><span>01</span>About</a>
     <a href="#catalogue" class="side-link"><span>02</span>Catalogue</a>
-    <a href="#education" class="side-link"><span>03</span>Diamond Intelligence</a>
-    <a href="#pricing" class="side-link"><span>04</span>Rate Guide</a>
-    <a href="#certification" class="side-link"><span>05</span>Certificates</a>
-    <a href="#contact" class="side-link"><span>06</span>Contact</a>
+    <a href="#quote" class="side-link"><span>03</span>Get a Quote</a>
+    <a href="#education" class="side-link"><span>04</span>Diamond Intelligence</a>
+    <a href="#pricing" class="side-link"><span>05</span>Rate Guide</a>
+    <a href="#certification" class="side-link"><span>06</span>Certificates</a>
+    <a href="#contact" class="side-link"><span>07</span>Contact</a>
     <div class="side-menu-footer">
       <a href="https://wa.me/919727857303?text=Hi%20Heera%20Cartel%20Co.%2C%20I%27d%20like%20to%20know%20more%20about%20your%20diamonds." target="_blank" rel="noopener">Talk to Us</a>
       <a href="https://www.instagram.com/heeracartel.co" target="_blank" rel="noreferrer">Instagram</a>
@@ -147,12 +149,25 @@
             <p class="script">Colour with a point of view.</p>
             <p class="desc">Coloured diamonds bring a different language to a collection. We guide you through natural colour, treated colour and lab grown colour with the same care given to every stone.</p>
           </div>
-          <a href="#contact" class="btn-line" style="display:inline-block; margin-top:26px;">Ask about a stone →</a>
+          <a href="catalogue.html" class="btn-solid" style="display:inline-block; margin-top:26px;">Browse &amp; filter all stones →</a>
+          <a href="#quote" class="btn-line" style="display:inline-block; margin:26px 0 0 22px;">Get a quote →</a>
         </div>
 
         <!-- Shape grid: each shape links to its own shape.html page -->
         <div class="shape-grid" id="shapeGrid"></div>
       </div>
+    </div>
+  </section>
+
+  <!-- QUOTE BUILDER -->
+  <section id="quote">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">Get a quote</span>
+        <h2>Tell us the stone.<br>We'll send the rate.</h2>
+        <p>Choose what you need and we build the message for you. It opens straight in WhatsApp, ready to send.</p>
+      </div>
+      <div class="quote-app" id="quoteApp"></div>
     </div>
   </section>
 
@@ -351,6 +366,8 @@
 
 <script src="catalogue-data.js"></script>
 <script src="site-common.js"></script>
+<script src="hc-filter.js"></script>
+<script src="quote.js"></script>
 <script>
   // Shape thumbnail images — one representative photo per shape.
   const shapeThumb = {
