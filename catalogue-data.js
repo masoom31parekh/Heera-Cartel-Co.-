@@ -835,10 +835,6 @@ const CATALOGUE = [
         "src": "assets/products/natural/emerald/natural-emerald-5-2.jpg"
       },
       {
-        "type": "image",
-        "src": "assets/products/natural/emerald/natural-emerald-5-3.jpg"
-      },
-      {
         "type": "video",
         "src": "assets/products/natural/emerald/natural-emerald-5-video.mp4"
       }
@@ -907,10 +903,6 @@ const CATALOGUE = [
       {
         "type": "image",
         "src": "assets/products/natural/emerald/natural-emerald-7-2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "assets/products/natural/emerald/natural-emerald-7-3.jpg"
       },
       {
         "type": "video",
