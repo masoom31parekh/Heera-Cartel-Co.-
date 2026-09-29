@@ -30,8 +30,8 @@
       var c = navigator.connection || {};
       var slow = c.saveData || /2g/.test(c.effectiveType || '');
       if (force || (!off && !seen && !reduce && !slow)) {
-        d.classList.add('intro-on');
-        setTimeout(function () { d.classList.remove('intro-on'); }, 20000);   // failsafe: never trap a visitor
+        d.classList.add('hc-intro-on');
+        setTimeout(function () { d.classList.remove('hc-intro-on'); }, 20000);   // failsafe: never trap a visitor
       }
     } catch (e) {}
   })();
@@ -40,11 +40,11 @@
 <body>
 
 <!-- HEERA CARTEL INTRO (Shri Yantra) -->
-<div id="introSplash" class="intro" role="dialog" aria-modal="true" aria-label="Heera Cartel Co. introduction">
-  <video id="introVideo" class="intro-video" muted playsinline preload="auto"></video>
-  <div class="intro-controls">
-    <button type="button" id="introSound" class="intro-btn" aria-pressed="false">Sound on</button>
-    <button type="button" id="introSkip" class="intro-btn">Skip intro</button>
+<div id="introSplash" class="hc-intro" role="dialog" aria-modal="true" aria-label="Heera Cartel Co. introduction">
+  <video id="introVideo" class="hc-intro-video" muted playsinline preload="auto"></video>
+  <div class="hc-intro-controls">
+    <button type="button" id="introSound" class="hc-intro-btn" aria-pressed="false">Sound on</button>
+    <button type="button" id="introSkip" class="hc-intro-btn">Skip intro</button>
   </div>
 </div>
 
